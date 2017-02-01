@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_DamianEvans.png" width="214" height="150" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Damian Evans Design</span></p>');
+document.write('     <p align="justify">Damian Evans Design é um estúdio sediado em Brighton, Inglaterra, que desenvolve design invoador, simples, útil e funcional para clientes internacionais como Joseph Joseph, entre vários outros. Seu fundador, Damian Evans graduou-se no Royal College of Art em Londres em 1986 e após um período trabalhando para o Conran Design Group, fundou em 1998 seu próprio estúdio de design. Desde então, tem desnvolvido produtos premiados para diversas empresas. Seu trabalho foi exibido nos Estados Unidos e Japão, além de aparecer no International Design Year Book.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
