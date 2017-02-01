@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_DominicSymons.jpg" width="214" height="180" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Dominic Symons</span></p>');
+document.write('      <p align="justify">Dominic Symons é o fundador e principal designer do Bluelounge, um premiado estúdio de design internacional, reconhecido por produtos inovadores e elegantes. Suíço de nascimento, naturalizado britânico, sua motivação é transformar objetos do cotidiano em objetos de desejo. Estudou no Art Center College of Design, na Suíça e na Califórnia. Formou-se em 1996 e mudou para São Francisco para trabalhar na Oito Inc., uma empresa de design multidisciplinar. Três anos depois, em 1999, lançou seu próprio estúdio em Los Angeles, em parceria com Melissa Sunjaya e rapidamente ganhou reconhecimento internacional. Seu trabalho inclui produtos que vão desde mobiliário e calçados até numerosos acessórios para escritório e organização pessoal.</p><p align="justify">Vencedor de muitos prêmios, incluindo Red Dot Design, IDEA, Good Design e Sparks, em 2005 Dominic transformou o estúdio numa marca e começou a produzir e distribuir soluções bem projetadas para problemas cotidianos. Sua visão para a simplicidade funcional tem sido parte integrante do sucesso da empresa.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
