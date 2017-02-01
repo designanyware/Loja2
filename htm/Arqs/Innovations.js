@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_Innovations.gif" width="214" height="137" border="0" /></td>');
+document.write('   <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Innovations Design and Engineering Showcase Award</span></p><p align="justify">O prêmio Innovations Design and Engineering é concedido pela Consumer Electronics Association (CEA), durante a Consumer Electronics Show (CES), a maior feira de tecnologia de consumo do mundo, que acontece anualmente em Las Vegas, nos Estados Unidos. Considerado um marco para a indústria global, o Innovations Design and Engineering premia realizações em design de produto e engenharia desde 1976.</p><p align="justify">Uma comissão julgadora formada por designers industriais, engenheiros de produto e membros da imprensa especializada, seleciona os produtos eletrônicos mais inovadores, de acordo com critérios como: qualidade técnica, estética, funcionalidade, inovação, entre outros. Os produtos eleitos refletem design e engenharia inovadores, como por exemplo, a primeira vez em que várias tecnologias são combinadas num único produto ou melhorias dramáticas num produto já existente.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
