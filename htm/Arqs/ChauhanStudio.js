@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_ChauhanStudio.png" width="214" height="180" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Chauhan Studio</span></p>');
+document.write('     <p align="justify">Chauhan Studio é um estúdio de design sediado em Londres, fundado pelo premiado designer Tej Chauhan. Graduado pela St. Martins School of Art and Design em 1995, Tej trabalhou como designer para a Nokia antes de abrir seu próprio escritório, em 2005. Especializado  em design de produto, seu principal objetivo é desenvolver produtos que as pessoas desejem e amem ter!');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
