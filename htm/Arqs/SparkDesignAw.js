@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/SparkDesignAw.gif" width="214" height="50" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Spark Design Awards</span></p>');
+document.write('      <p align="justify">Spark Design Awards são uma série de competições internacionais que incentivam e premiam projetos que tornam o mundo um lugar melhor.<p align="justify">Realizado pela primeira vez em 2007, sua missão é melhorar a qualidade de vida através de um design melhor. Abrange categorias como produto, espaço, conceito, comunicação e mobilidade. As inscrições são abertas para designers de todos os níveis, incluindo estudantes.</p><p align="justify">Os critérios de avaliação têm como principal objetivo julgar se os produtos são inovadores, relevantes e se de alguma forma ajudam a humanidade e o meio ambiente em que vivemos.</p><p align="justify">Seu fundador, Peter F. Kuchnicki, acredita que o design é uma importante ferramenta que ajuda a construir um mundo melhor. Segundo ele, design e designers atuam como catalisadores, resolvendo problemas e melhorando nossa qualidade de vida e meio ambiente.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
