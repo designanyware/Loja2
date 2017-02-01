@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Cumaru.jpg" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Cumaru</span></p>');
+document.write('     <p align="justify"> Cumaru é um estúdio de arte e design com sede em São Paulo, cuja proposta atual é criar objetos de uso cotidiano que sejam simples e práticos, com um toque de humor e muito bom gosto. Desenvolve produtos em vidro, cerâmica e tecidos com estampas retrô ou divertidas, todas muito originais. O estúdio oferece também oportunidades para jovens designers, preparando-os para o mercado de trabalho.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
