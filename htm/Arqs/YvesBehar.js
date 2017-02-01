@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_YvesBehar.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Yves Béhar</span></p><p align="justify">Yves Behar é o fundador do estúdio de design Fuseproject, de São Francisco. Focado em design humanista, tem o objetivo de criar produtos que estejam em sintonia com as necessidades de um futuro sustentável, conectados com as emoções humanas e que permitam a auto expressão.</p><p align="justify">Seus clientes incluem Coca-Cola, Swarovski, BMW Mini, Slice, Herman Miller, Y Water e muitos outros. Para a organização OLPC (One Laptop Per Child) de Nicholas Negroponte, o Fuseproject projetou o laptop XO, o primeiro do mundo a custar 100 dólares, que visa levar educação e tecnologia para as crianças pobres do mundo.</p><p align="justify">Nos projetos comerciais, Yves se propôs a ser igualmente impactante. Seu trabalho foi objeto de duas exposições individuais e faz parte de coleções permanentes de museus internacionais ao redor do mundo, incluindo o MOMA, o Musée d’Art Moderne do Centro Pompidou, o Chicago Art Institute e o Museu de Artes Aplicadas de Munique. Além de suas responsabilidades no Fuseproject, Yves também assumiu papéis criativos em parcerias com Aliph Jawbone e outras empresas.'); 
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
