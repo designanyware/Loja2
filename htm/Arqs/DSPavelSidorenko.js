@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_PavelSidorenko.gif" width="214" height="60" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Pavel Sidorenko Design</span></p><p align="justify">Pavel Sidorenko é um designer Estoniano, formado pela Academia de Artes da Estônia em 2006. Seu objetivo é criar produtos funcionais e divertidos, que mantém a sua simplicidade, interagindo com o espaço e o usuário.</p><p align="justify">Para ele, as criações não devem apenas incorporar a necessidade pragmática, mas devem principalmente transmitir uma qualidade emocional ao ambiente, todos os dias.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
