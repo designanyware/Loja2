@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_InteriorInnovation.gif" width="214" height="110" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Interior Innovation Award</span></p>');
+document.write('      <p align="justify">O Interior Innovation é um dos mais prestigiados concursos do setor de mobiliário em todo o mundo. Lançado em 2002 na Feira Internacional de Móveis imm Cologne, na Alemanha, é organizado pelo Conselho Alemão de Design.</p><p align="justify">Todos os anos, o prêmio é concedido aos mais inovadores produtos expostos na imm Cologne, nas seguintes categorias: mobiliário, banheiro, escritório/local de trabalho, equipamentos para construção, paredes, pisos, tetos, cozinha, casa, iluminação e têxtil.</p><p align="justify">O Interior Innovation é considerado uma importante e efetiva ferramenta para o posicionamento de marcas e diferenciação de produtos na área de design de interiores.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
