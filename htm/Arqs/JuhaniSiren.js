@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_JuhaniSiren.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Juhani Sirén</span></p><p align="justify">O Finlandês Juhani Sirén não é apenas o designer dos inovadores e multifuncionais utensílios de cozinha da Magisso, mas é também o fundador e CEO da empresa. Está sempre à procura de novos problemas na cozinha para resolver, e o faz criando produtos inovadores com design inteligente e funcional.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
