@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_FocusOpen.gif" width="214" height="90" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Focus Open</span></p>');
+document.write('      <p align="justify">Desde 2003, o Baden-Württemberg International Design Award (prêmio internacional de Design Baden-Württemberg) tem-se autodenominado Focus competition e se afirmado como uma competição de grande prestígio entre empresas e estúdios de design, especialmente valorizada pela sua característica independente e sem caráter comercial.</p><p align="justify">A neutralidade do júri para garantir uma concorrência leal é o principal foco do Centro de Design Stuttgart, situado no estado de Baden-Württemberg, na Alemanha, que apresenta o prêmio e convida empresas e designers de todas as áreas para participar. O júri, formado por renomados especialistas de diferentes disciplinas, dá o Focus in Silver (Focus de prata) para os melhores produtos de cada categoria e o Focus in Gold (Focus de ouro) para os melhores entre os melhores.</p><p align="justify">Os produtos são avaliados de acordo com critérios como qualidade, funcionalidade, inovação, ergonomia, usabilidade, sustentabilidade, entre outros. A excelente reputação da competição é refletida pelo elevado número de participantes e ao mesmo tempo, esta resposta também é uma indicação da crescente importância do profissional do design nas empresas.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
