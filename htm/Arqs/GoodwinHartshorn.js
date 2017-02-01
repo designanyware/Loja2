@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_GoodwinHartshorn.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Goodwin Hartshorn</span></p>');
+document.write('      <p align="justify">Goodwin Hartshorn é uma consultoria em desenho industrial, sediada em Londres. Foi fundada por Edward Goodwin e Richard Hartshorn em 2002, após terem estudado Engenharia nas universidades de Cambridge e Oxford respectivamente e posteriormente, Desenho Industrial no Royal College of Art. Especializados em design de produtos inovadores, seus projetos abrangem desde equipamentos médicos, alto-falantes até móveis e eletrodomésticos.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
