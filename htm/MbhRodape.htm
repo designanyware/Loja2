@@ -1,0 +1,52 @@
+<div id="FooterMobile">
+  <ul class="menu">
+    <li><a href="AddProduto.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/MbbIcBotCart.png"><span class="menuname">Seu pedido</span><span class="arrow"></span></a></li>
+    <li><a href="Ajuda.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/MbbIcBotDoubt.png"><span class="menuname">Informações</span><span class="arrow"></span></a></li>
+    <li><a href="FaleConosco.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/MbbIcBotContact.png"><span class="menuname">Fale conosco</span><span class="arrow"></span></a></li>
+    <li><a href="Home.asp?IDLoja=<IDLoja>"><img src="<BaseLoja>images/MbbIcBotHome.png"><span class="menuname">Página inicial</span><span class="arrow"></span></a></li>
+</ul>
+</div>
+
+<div id="FooterMenu">
+  <table align=center width=97%><tr><td><ListCat></td></tr></table>
+  <table align=center width=97%><tr><td>
+    <select class=smSelect id=MenuOpt name=MenuOpt size=1 onChange="if(this.options[this.selectedIndex].value!='0')VaiParaPagina(this.options[this.selectedIndex].value);">
+      <option value=0>MENU <NomeLoja></option>
+      <option value="Newsletter.asp?IDLoja=<IDLoja>">Newsletter</option>
+      <option value="BuscaAvancada.asp?IDLoja=<IDLoja>">Busca detalhada</option>
+      <option value="Indique.asp?IDLoja=<IDLoja>">Indique a loja</option>
+      <option value="Noticias.asp?IDLoja=<IDLoja>">Noticias</option>
+      <option value="ListaProdutos.asp?IDLoja=<IDLoja>&Promocao=True">Ofertas</option>
+      <option value="ListaProdutos.asp?IDLoja=<IDLoja>&Lancamento=True">Lançamentos</option>
+    </select>
+  </td></tr></table>
+</div>
+
+<script>
+document.getElementById('idListCatFC').style.width='100%';
+
+var selCat=document.getElementById('IDSelCategoria');
+selCat.options[0].text='<Categorias>';
+selCat.style.width='100%';
+if(sPag.indexOf("IDCATEGORIA")<=0)selCat.selectedIndex=0;
+
+var MenuOpt=document.getElementById('MenuOpt');
+MenuOpt.style.width='100%';
+MenuOpt.style.margin='10px 0px 20px 0px';
+
+if(sPag.indexOf("CADASTRO.ASP")>=0 || sPag.indexOf("RECALCULA.ASP")>=0 || sPag.indexOf("FORMAPAGTO.ASP")>=0){
+  document.getElementById("TopSearch").style.display='none';
+  document.getElementById("FooterMobile").style.display='none';
+  document.getElementById("FooterMenu").style.display='none';
+}
+
+function VaiParaPagina(sPag){location.href=sPag;}
+</script>
+
+<style>
+.EstPassosCompra{display:none;}
+.NotaOpiniaoVazio{width:14px;height:14px;background-image:url(<BaseLoja>/images/MbbNotaOff.png)}
+.NotaOpiniaoMeio{width:14px;height:14px;background-image:url(<BaseLoja>/images/MbbNotaHalf.png)}
+.NotaOpiniaoCheio{width:14px;height:14px;background-image:url(<BaseLoja>/images/MbbNotaOn.png)}
+</style>
+<script src=<BaseLoja>htm/MbhFormAjust.js></script>
