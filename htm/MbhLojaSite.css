@@ -1,0 +1,127 @@
+/* FastCommerce - MOBILE */
+
+.EstEspacoTopoMenu{display:none;position:absolute;left:-2000px;}
+.EstEspacoTopoConteudo{display:none;position:absolute;left:-2000px;}
+.EstEspacoEsquerdaConteudo{position:absolute;left:-2000px;}
+.EstLinhaBarra{display:none;position:absolute;left:-2000px;}
+.EstLinhaBarraExt{display:none;position:absolute;left:-2000px;}
+
+
+#idTxtCorreiosFC{display:none;}
+#idTxtCPFFC{display:none;}
+#idTxtCEP1FC{display:none;}
+#idTxtSMSFC{display:none;}
+#idTxtNascFC{display:none;}
+#idTxtSenhaMinFC{display:none;}
+#idTxtLembreteFC{display:none;}
+#idTxtCEP2FC{display:none;}
+#idTxtEntregaFC{display:none;}
+#idTxtccNomeFC{display:none;}
+#RegiaoEnvio{width:180px;}
+.idTxtTrackFC{display:none;}
+.idTxtTrackConfFC{display:none;}
+.idTxtPrintFC{display:none;}
+.EstLinkASEnews{display:none;}
+
+body {font-size:9pt;font-family:tahoma,verdana;background:#ffffff;color:#333333}
+p {font-size:9pt;font-family:verdana,arial;color:#333333}
+TH {font-size:9pt;background:#FFFFCC;color:#336699;font-family:verdana,arial;color:#333333}
+TD {font-size:9pt;font-family:tahoma,verdana;color:#333333}
+
+/* Estilos de fundo */
+.x_FundoSiteCentro{background:#ffffff}
+.x_FundoTopoExt{background:#ffffff}
+.x_FundoSiteInt{background:#ffffff}
+.x_FundoBarraDireita{background:#ffffff;}
+.x_FundoBarraEsquerda{background:#ffffff;}
+
+
+/* Estilos para as páginas */
+.Titulos {color:#A70505;font-size:9pt;font-family:verdana;text-decoration:none;font-weight:bold}
+.smSelect {font-size:12pt;font-family:tahoma,verdana}
+.smText {font-size:9pt;font-family:tahoma,verdana}
+.mnText {font-size:8pt;font-family:verdana,arial}
+.mdtxt {font-size:9pt;font-family:verdana,arial}
+.lgtxt {font-size:9pt;font-weight:bold;color:#990000;font-family:tahoma,verdana;text-decoration:none}
+.TextoPequeno {font-size:8pt;font-family:tahoma,verdana}
+
+/* Estilos para a capa */
+.EstFotoProd {height:120}
+.EstNomeProdCapa {font-family:tahoma,arial;font-size:10pt;font-weight:bold;color:#333333}
+.EstDescrProdCapa {font-size:9pt;font-family:tahoma,verdana}
+.EstAdicProdCapa {font-size:9pt;font-family:tahoma,verdana}
+.AdicNomeCapa {font-size:9pt;font-family:tahoma,verdana}
+.AdicItemCapa {font-size:9pt;font-family:tahoma,verdana;font-weight:bold;color:#A70505}
+.EstPrecoProdCapa {color:#972B00;font-size:9pt;font-family:arial}
+.EstFundoTabCapa {background:#FFFFFF;font-size:9pt;font-family:arial}
+
+/*  Estilo para os formulários BOTÕES e INPUTs TEXT */
+.InputText {border-color:#333333;border-width:1;border-style:solid;background-color:#F5F5F5;font-size:11;font-family:tahoma,verdana;color:#6C6C6C}
+.InputTextBusca {height:18px;border-color:#333333;border-width:1;border-style:solid;background-color:#F5F5F5;font-size:11;font-family:verdana;color:#6C6C6C}
+.InputButton {border-width:1;font-size:11;font-family:verdana}
+
+/*  Estilo BOTÕES */
+.BotLancamento {color:#FF0101;font-size:7pt;font-family:verdana,arial}
+.BotComprar {display:none}
+.BotEsgotado {font-size:9pt;font-family:verdana,arial}
+.BotExcluir {font-size:9pt;font-family:verdana,arial}
+.BotMaisDetalhes {color:#990000;font-size:7pt;font-family:verdana,arial;text-decoration:none}
+
+/*  Texto das Setas de VER MAIS */
+.BotVerMais {display:none;color:#000000;font-size:8pt;font-family:verdana,arial;font-weight:bold;text-decoration:none}
+.BotVerMais:hover {color:#FF0000;text-decoration:underline}
+
+/*  Menu inferior (Claro) */
+.MenuInf {font-weight:bold;background:#f0f0f0;font-size:12pt;font-family:tahoma,verdana,arial;color:#0F1A15;text-decoration:none;}
+
+
+/*  Estilo PRODUTOS */
+.EstNomeProd {color:#4386c3;font-size:12pt;font-weight:bold;font-family:arial,tahoma,verdana}
+.EstNomeCat{color:#333333;font-size:9pt;font-weight:bold;font-family:arial,tahoma,verdana}
+.EstRefProd {color:#8E8E8E;font-size:8pt;font-family:verdana}
+.EstDescrProd {font-size:9pt;font-family:tahoma,verdana}
+.EstPrecoProd {color:#385171;font-size:13pt;font-family:arial}
+.EstMaisInfo {color:black;font-size:8pt;font-family:tahoma,verdana}
+.AdicNome {font-size:9pt;font-family:tahoma,verdana}
+.AdicItem {font-size:9pt;font-family:tahoma,verdana;font-weight:bold;color:#5280dc}
+.EstLinhaProd {color:#CFCFCF;height:1px;width:95%}
+
+/*  Estilo SUBPRODUTOS */
+.EstRefSubProd {color:#000000;font-size:8pt;font-family:verdana,arial}
+.EstDescrSubProd {color:#000000;font-size:8pt;font-family:verdana,arial}
+.EstPrecoSubProd {color:#222222;font-size:8pt;font-family:arial}
+.EstLinhaSubProd {background:#555555;height:1px;width:100%}
+.EstCorParSubProd {background:#FAFAFA}
+.EstCorImparSubProd {background:#F0F0F0}
+
+/*  Estilo das opiniões de produtos */
+.EstOpiniaoLinha {color:#CFCFCF;height:1px;width:100%}
+
+/* Estilos do PEDIDO */
+
+.EstFotoProdCesta{display:none;}
+
+.EstTabPedidoTit {background:#cad1d7;color:#000000;font-size:9pt;font-family:arial;}
+.EstTabPedidoNome {color:#333333;font-size:8pt;font-weight:bold;font-family:arial,verdana}
+.EstTabPedidoNome:visited {color:#333333}
+.EstTabPedidoNome:hover {color:#990000}
+.EstTabPedido {font-size:8pt;background:#ECECEC}
+.EstTabPedidoNum {font-size:8pt;background:#ECECEC;font-family:arial}
+.EstTabPedidoTotal {font-size:8pt;background:#D3D3D3;}
+.EstTabPedidoFrete {font-size:8pt;background:#F4F4F4;}
+.EstTabPedidoBot {color:#000000;font-size:8pt;font-weight:bold;font-family:verdana,arial}
+.EstTabPedidoRef {color:black;font-size:8pt;font-family:tahoma,verdana}
+.EstTabPedidoAdicNome {font-size:8pt;font-family:tahoma,verdana}
+.EstTabPedidoAdicItem {font-size:8pt;font-family:tahoma,verdana}
+.EstTextoQtd {font-size:8pt;font-family:tahoma,verdana;text-align:right}
+.EstContinuarComprando{font-size:9pt;font-weight:bold;font-family:tahoma,verdana;color:#990000}
+
+/* Estilo de Títulos de Tabela CADASTRO DE CLIENTES, AJUDA, CONFIRMAÇÃO DO PEDIDO */
+.EstTabTopo {padding:5px 3px 3px 3px;background:#F3F3F3;color:#385171;font-size:11pt;font-family:arial,verdana;font-weight:bold}
+
+/* Estilo para a tabela de Busca Rápida, para tabela de Ajuda (Pagamentos) e Fale Conosco */
+.EstTabQuadro {background:#FAFAFA;font-size:8pt;font-family:arial,Helvetica}
+
+/* Estilo dos campos do formulário clientes,fale conosco,... 	*/
+.EstNomeCampo {color:black;font-size:8pt;font-family:tahoma,verdana;font-weight:bold}
+.EstCampo {font-size:8pt;font-family:tahoma,verdana}
