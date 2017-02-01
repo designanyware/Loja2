@@ -1,0 +1,179 @@
+// FastCommerce - EstiloProduto.htm (Modelo personalizado 4)
+
+<ProdTop>
+<style>
+.TitTabParc{font-weight:bold;font-size:8pt;font-family:tahoma,arial}
+.EstParcPar{background:#F8F8F8;font-size:8pt;font-family:tahoma,verdana}
+.EstParcImpar{background:#FFFFFF;font-size:8pt;font-family:tahoma,verdana}
+body {font-size:9pt;font-family:tahoma,verdana;background:#efefef}
+</style>
+<JurosParcelas>
+<script>
+function MostraMaxParcela(PrecoProd,MaxParcelas){
+  var ComSem;
+  if(PrecoProd==0||MaxParcelas==1||Juros.length==0)return;
+  if(MaxParcelas==0||MaxParcelas>Juros.length)MaxParcelas=Juros.length;
+  if(Juros[MaxParcelas-1]>0)ComSem=""; else ComSem="<font color=#990000>&nbsp;sem&nbsp;juros</font>";
+  document.write("ou&nbsp;<b>"+MaxParcelas+"x</b>"+ComSem+" de&nbsp;<b>"+FormatPrecoReais(CalculaParcelaJurosCompostos(PrecoProd,MaxParcelas))+"</b>");
+}
+
+function MostraParcelas(PrecoProd,MaxParcelas){
+  var ComSem,EstiloLinha;
+  if(PrecoProd==0||MaxParcelas==1||Juros.length==0)return;
+  if(MaxParcelas==0||MaxParcelas>Juros.length)MaxParcelas=Juros.length;
+  document.write("<br><table width=350 cellspacing=1 cellpadding=3 bgcolor=#D8D7C9><tr bgcolor=#DBDACD><td colspan=3 height=22 class=TitTabParc align=center><b>Opções de parcelamento</td></tr><tr bgcolor=#E6E4E4><td class=TitTabParc>Número&nbsp;de<br>parcelas</td><td align=right class=TitTabParc>Valor&nbsp;de<br>cada&nbsp;parcela</td><td align=right class=TitTabParc>Valor&nbsp;total<br>parcelado</td></tr>");
+  for(var i=0;i<MaxParcelas;i++){
+    if(Juros[i]>0)ComSem="com juros"; else ComSem="<font color=#990000>sem&nbsp;juros</font>";
+    if((i%2)==0)EstiloLinha='EstParcPar'; else EstiloLinha='EstParcImpar';
+    document.write("<tr class="+EstiloLinha+"><td class="+EstiloLinha+">"+(i+1)+"x "+ComSem+"</td><td class="+EstiloLinha+" align=right>"+FormatPrecoReais(CalculaParcelaJurosCompostos(PrecoProd,i+1))+"</td><td class="+EstiloLinha+" align=right>"+FormatPrecoReais(CalculaParcelaJurosCompostos(PrecoProd,i+1)*(i+1))+"</td></tr>");
+  }
+  document.write("</table><br>");
+}
+</script>
+</ProdTop>
+
+<ProdLista>
+<div id=idProdListaMobileFC>
+<ul class="ProdOut">
+  <li>
+    <table width=100% cellspacing=0 cellpadding=2>
+      <tr>
+        <td align=center width=120><br><a href='ListaProdutos.asp?IDLoja=<IDLoja>&IDProduto=<IDProduto>'><ImagemProd></a></td>
+        <td><br>
+          <a href='ListaProdutos.asp?IDLoja=<IDLoja>&IDProduto=<IDProduto>' class=EstNomeProdCapa><NomeProd></a>
+          <table width=100%>
+            <tr><td class=EstPrecoProdCapa><Preco><script>MostraEconomia(<PrecoNum>,<PrecoOri>);</script></td></tr>
+            <script>if(<OpiniaoQtd>>0){document.write("<tr><td><table><tr><td><OpiniaoMedia></td><td>(<OpiniaoQtd>)</td></tr></table></td></tr>")}</script>
+            <script>if(<Estoque>==0){document.write("<tr><td id=TextoEsgotado>Esgotado</td></tr>")};</script>
+          </table>
+        </td>
+      </tr>
+    </table>   
+  </li>
+</ul>
+</div>
+</ProdLista>
+
+<ProdDet>
+<style>
+body {font-size:9pt;font-family:tahoma,verdana;background:#ffffff}
+</style>
+<div id=idProdDetMobileFC>
+<table width=100% name=TabProduto<IDProduto> cellpadding=0 cellspacing=0>
+  <tr>
+    <td valign=top>
+      <table name=TabNomeRefProd<IDProduto> width=100% cellpadding=2 cellspacing=0>
+        <tr>
+          <td valign=top class=EstNomeProd align=center><NomeProd> <Lancamento></td>
+        </tr>
+        <tr>
+          <td valign=top align=center>[<NomeCat>]<br><br></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align=center valign=top><ImagemProd></td>
+  </tr>
+  <tr>
+    <td valign=top>
+      <table name=TabDadosProduto<IDProduto> width=100% cellpadding=5 cellspacing=0>
+        <tr><td height=7><img src=images/shim.gif width=1 height=7></td></tr>
+        <tr><td valign=top class=EstDescrProd><Descricao></td></tr>
+
+        <tr>
+          <td valign=top>
+            <table name=TabAdicionais<IDProduto> cellpadding=0 cellspacing=0>
+              <FormProd>
+              <tr>
+                <td>
+                  <table cellpadding=0 cellspacing=0>
+                    <tr><td nowrap><Cor></td></tr>
+                    <tr><td nowrap><Adicional1></td></tr>
+                    <tr><td nowrap><Adicional2></td></tr>
+                    <tr><td nowrap><Adicional3></td></tr>
+                    <tr><td nowrap><AdicionalD1></td></tr>
+                    <tr><td nowrap><AdicionalD2></td></tr>
+                    <tr><td nowrap><AdicionalD3></td></tr>
+                    <tr><td nowrap><Peso></td></tr>                    
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td valign=top>
+            <table name=TabPreco<IDProduto> width=100% cellpadding=3 cellspacing=0>
+              <tr><td height=1 colspan=5><img src=images/shim.gif width=1 height=1></td></tr>
+              <tr><td nowrap class=EstPrecoProd align=center><Preco><br><br></td></tr>
+              <tr><td align=center><LinkComprar></td></tr></FormProd>
+            </table><br>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+<Sub>
+  <hr class=EstLinhaProd>
+  <table width=100% name=TabSubProduto<IDProduto> cellpadding=0 cellspacing=0>
+    <tr><td align=center valign=top><ImagemProd></td></tr>
+    <tr>
+      <td valign=top>
+        <table name=TabDadosProduto<IDProduto> width=100% cellpadding=5 cellspacing=0>
+          <tr><td height=7><img src=images/shim.gif width=1 height=7></td></tr>
+          <tr><td valign=top class=EstDescrProd><Descricao></td></tr>
+  
+          <tr>
+            <td valign=top>
+              <table name=TabAdicionaisSub<IDProduto> cellpadding=0 cellspacing=0>
+                <FormProd>
+                <tr>
+                  <td>
+                    <table cellpadding=0 cellspacing=0>
+                      <tr><td nowrap><Cor></td></tr>
+                      <tr><td nowrap><Adicional1></td></tr>
+                      <tr><td nowrap><Adicional2></td></tr>
+                      <tr><td nowrap><Adicional3></td></tr>
+                      <tr><td nowrap><AdicionalD1></td></tr>
+                      <tr><td nowrap><AdicionalD2></td></tr>
+                      <tr><td nowrap><AdicionalD3></td></tr>
+                      <tr><td nowrap><Peso></td></tr>                    
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td valign=top>
+              <table name=TabPreco<IDProduto> width=100% cellpadding=3 cellspacing=0>
+                <tr><td height=1 colspan=5><img src=images/shim.gif width=1 height=1></td></tr>
+                <tr><td nowrap class=EstPrecoProd align=center><Preco><br><br></td></tr>
+                <tr><td align=center><LinkComprar></td></tr></FormProd>
+              </table><br>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</Sub>
+</div>
+</ProdDet>
+
+<ProdAmp>
+<div id=idProdAmpMobileFC align=center><ImagemProd></div>
+<style>#idProdAmpMobileFC .EstImgFC{width:300;}</style>
+</ProdAmp>
+
+<ProdBottom>
+<script>
+    try{document.getElementById("idFoundFC").style.padding='0px 0px 15px 10px';}catch(e){}
+    try{document.getElementById("idPageCountFC").style.padding='0px 0px 15px 0px';}catch(e){}
+</script>
+</ProdBottom>
