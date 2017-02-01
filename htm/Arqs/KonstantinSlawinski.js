@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Konstantin.gif" width="214" height="90" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Konstantin Slawinski</span></p><p align="justify">Fundada em 1914, na Alemanha, a Konstantin Slawinski fabricava produtos personalizados, de alta qualidade, para máquinas e instalações industriais.</p><p align="justify">Em 2003, a empresa resolveu lançar uma gama de produtos com design, introduzindo todo seu know-how  numa linha de modernos acessórios para a casa e foi muito bem-sucedida na feira Ambiente 2003, em Frankfurt. A partir de então a Konstantin Slawinski lançou vários concursos, convidando alguns designers. Seus produtos são o resultado dessas competições e da em parceria com vários designers. ');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
