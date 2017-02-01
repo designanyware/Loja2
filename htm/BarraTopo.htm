@@ -1,0 +1,648 @@
+<script language=JavaScript src="<BaseLoja>htm/SimulaFreteFC.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/LojaLib.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/JurosParcelas.js"></script>
+<script src="<BaseLoja>htm/jquery.js" type="text/javascript"></script>
+<script src="<BaseLoja>htm/livequery.js" type="text/javascript"></script>
+<script src="<Baseloja>htm/miniZoomPan.js" type="text/javascript"></script>
+<script src="<BaseLoja>htm/cycle.js" type="text/javascript"></script>
+<script type="text/javascript">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+
+var sPag=document.location.href.toUpperCase();
+IDLojaNum='<IDLojaNum>';
+sCaminhoImages='<Baseloja>images/';
+</script>
+<script language="JavaScript">
+var sPag=document.location.href.toUpperCase();
+
+if(sPag.indexOf("HOME.ASP")>=0 || sPag=="HTTPS://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.LOJAVIRTUALFC.COM.BR/")
+{
+document.write("<style>#MostraHome{display:block;}</style>");
+}
+else
+{
+document.write("<style>#MostraHome{display:none;}</style>");
+document.write("<style>#LimpaScript{display:none;}</style>");
+}
+</script>
+<div id="LimpaScript">
+<script type="text/javascript" src="<Baseloja>htm/jcarousellite.js"></script>
+<script type="text/javascript">jQuery(function(){$("#brand-rotator").find("div.window").jCarouselLite({btnNext:"img.next",btnPrev:"img.prev",auto:7000,speed:1000,visible:7,scroll:3})});</script>
+<script type="text/javascript" src="<Baseloja>htm/slider/jquery171.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/slider/nivo_slider.js"></script>
+<link rel="stylesheet" href="<Baseloja>htm/slider/nivo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<Baseloja>htm/slider/nivo_slider.css" type="text/css" media="screen" />
+<script type="text/javascript">
+  jQuery.noConflict();
+  jQuery(window).load(function() {
+	jQuery('#slider').nivoSlider({
+        effect:"random",
+        slices:15,
+        boxCols:8,
+        boxRows:4,
+        animSpeed:500,
+        pauseTime:5000,
+        startSlide:0,
+        directionNav:true,
+        directionNavHide:true,
+        controlNav:true,
+        controlNavThumbs:false,
+        controlNavThumbsFromRel:true,
+        keyboardNav:true,
+        pauseOnHover:false,
+        manualAdvance:false
+    });
+	});
+</script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+</div>
+
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="495" height="30"><script language="JavaScript">
+
+today = new Date(); 
+hora = today.getHours();
+
+if ((hora >=6) && (hora < 12)) 
+document.write("<span class=VermM_><b>Bom dia!</b> </span>") 
+else 
+if ((hora >=12) && (hora < 18)) 
+document.write("<span class=VermM_><b>Boa tarde!</b> </span>") 
+else 
+if ((hora >=18) && (hora < 24)) 
+document.write("<span class=VermM_><b>Boa noite!</b> </span>") 
+else 
+if ((hora >=00) && (hora < 6)) 
+document.write("<span class=VermM_><b>Bom dia!</b> </span>") 
+
+
+if(''!='<NomeCliente>') {
+	
+document.write('<span class=CinzaM_>Se você não é </span><span class=VermM_><NomeCliente></span>,<a class=CinzaM_ href="Cadastro.asp?logoff=true&IDLoja=23005"> clique aqui.</a>');
+
+} else {
+
+document.write('<a class=CinzaM href=Cadastro.asp?IDLoja=23005>Identifique-se ou cadastre-se.</a>');
+
+}
+
+</script></td>
+    <td width="495" align="right"><b class="CinzaM">Whattsapp: (47) 99167-7478</b><span class="CinzaM_">  |  <a class="CinzaM" href="/page,idloja,23005,arq,QuemSomos.htm,quem-somos">quem somos</a><span class="CinzaM_">  |  <a class="CinzaM" href="FaleConosco.asp?IDLoja=<IDLoja>" title="Contato">contato</a> | <a class="CinzaM" href="/page,idloja,23005,arq,ClientesSatisfeitos.html,clientes-satisfeitos">clientes satisfeitos</a><span class="CinzaM_">  |  </span><a class="CinzaM" href="Cadastro.asp?logoff=true&amp;IDLoja=<IDLoja>" title="cadastro">cadastro</a> |  <a class="CinzaM" href="Cadastro.asp?logoff=true&amp;IDLoja=<IDLoja>" title="login">login</a> |  </span></td>
+  </tr>
+</table>
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="200" height="120" align="center" valign="top" background="<Baseloja>images/FdLogo.gif"><a href="home.asp?IDLoja=<IDLoja>"><img src="<Baseloja>images/TopoLogo.png" alt="DESIGN any ware" title="DESIGN any ware" width="176" height="114" border="0" /></a></td>
+    <td width="790"><table width="790" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="80"><table width="790" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="395" height="80"><div style="position:relative;top:30px;margin-left:12px;"><span class="VermG_">Produtos que facilitam sua vida com muito estilo</span></div></td>
+            <td width="395"><table width="395" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="115" border="0" align="right" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a class="PretoG"  href="AddProduto.asp?IDLoja=<IDLoja>" title="minhas compras">minhas compras</a><br /><script>
+var IDLoja="<IDLojaNum>";
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","XMLCart.asp?IDLoja="+IDLoja+"",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+var x=xmlDoc.getElementsByTagName("item");
+var z=xmlDoc.getElementsByTagName("cart");
+
+try{currencyProdCart=(z[0].getElementsByTagName("currency")[0].childNodes[0].nodeValue);}
+catch(e){currencyProdCart=""}
+try{TotalQtyProdCart=(z[0].getElementsByTagName("TotalQty")[0].childNodes[0].nodeValue);}
+catch(e){TotalQtyProdCart="0"}
+try{subtotalProdCart=(z[0].getElementsByTagName("subtotal")[0].childNodes[0].nodeValue);}
+catch(e){subtotalProdCart="0"}
+
+var QtdCesta=TotalQtyProdCart;
+if (QtdCesta>0){
+document.write("<scr"+"ipt type='text/javascript' src='<BaseLoja>htm/MenuTopoAparecer.js'></scr"+"ipt>");
+document.write("<scr"+"ipt type='text/javascript' src='<BaseLoja>htm/MenuTopo.js'></scr"+"ipt>");
+document.write("      <style>");
+document.write("      .EstCestaTxt{font-size:8pt;font-family:tahoma,verdana}");
+document.write("      .ItemCesta{position:relative;margin-left:-2px;*margin-left:35px;color:#EB0305}");
+document.write("      .EstTabTopoXML {padding:5px 5px 5px 5px;background:#EEEDE9;color:#333333;font-size:12px;font-family:'Oblik_Bold-webfont','Trebuchet MS',verdana;font-weight:bold;}");
+document.write("      .EstPrecoProdCapaXML {color:#EB0305;font-size:12px;font-family:'Oblik_Bold-webfont','Trebuchet MS',verdana;font-weight:bold}");
+document.write("      .EstTitCartXML a{font-size:18pt;color:blue;font-family:'Oblik_Bold-webfont','Trebuchet MS',verdana;font-weight:bold}");
+document.write("      .EstTitXML {font-size:12px;color:#666666;font-family:'Oblik_Bold-webfont','Trebuchet MS',verdana;font-weight:bold}");
+document.write("      </style>");
+document.write("  <table width='100%' cellspacing='0' cellpadding='0' border='0'>");
+document.write("    <tr>");
+document.write("      <td>");
+document.write("        <ul id='TopoMenuTodos'>");
+document.write("          <li>");
+document.write("<span class='ItemCesta'>"+ TotalQtyProdCart +" itens</span>");
+document.write("              <ul>");
+document.write("                <li>");
+document.write("                  <table width='350' border='0'>");
+document.write("                    <tr>");
+document.write("                      <td align='center'>");
+document.write("                        <table width='100%' border='0'>");
+document.write("                          <tr>");
+document.write("                            <td class='EstTitXML'>");
+document.write("                              <a href='AddProduto.asp?IDLoja=<IDLoja>' title='Ver meu carrinho'>Ir para a cesta de compras</a>");
+document.write("                            </td>");
+document.write("                          </tr>");
+document.write("                          <tr>");
+document.write("                            <td class='EstCestaTxt' height='105' valign='top'>");
+document.write("                              <table width='300' border='0'>");
+
+for (i=0;i<x.length;i++)
+  { 
+var sCestaFC=document.getElementById("idMostraDadosCestaFC");
+var NomeProdCart=(x[i].getElementsByTagName("prod")[0].childNodes[0].nodeValue);
+var qtyProdCart=(x[i].getElementsByTagName("qty")[0].childNodes[0].nodeValue);
+var priceProdCart=(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
+  document.write("<tr><td class='EstTitXML' width='250'>" + NomeProdCart + " (" + qtyProdCart + ")</td><td class='EstPrecoProdCapaXML' width='100'>" + currencyProdCart + " " + priceProdCart + "</td></tr>");
+  }
+
+document.write("		                <tr>");
+document.write("			          <td colspan='2'>");
+document.write("     			            <br />");
+document.write("          			  </td>");
+document.write("           			</tr>");
+document.write("           	              </table>");
+document.write("			    </td>");
+document.write("			  </tr>");
+document.write("			  <tr>");
+document.write("			    <td>");
+document.write("   			      <table width='300' border='0'>");
+document.write("      			        <tr>");
+document.write("         			  <td class='EstTabTopoXML' width='200'>");
+document.write("             			    <b>Sub-total:</b>");
+document.write("              			  </td>");
+document.write("                		  <td class='EstTabTopoXML'>");
+document.write("   			            "+ currencyProdCart +" " + subtotalProdCart);
+document.write("    			          </td>");
+document.write("   			        </tr>"); 
+document.write("     	  		      </table>");
+document.write("	   		    </td>");
+document.write("			  </tr>");
+document.write("		        </table>");
+document.write("                      </td>");
+document.write("                    </tr>");
+document.write("                  </table>");
+document.write("                </li>");
+document.write("              </ul>");
+document.write("          </li>");
+document.write("        </ul>");
+document.write("      </td>");
+document.write("    </tr>");
+document.write("  </table>");
+}
+</script></td>
+  </tr>
+</table></td>
+                <td width="44" align="center"><img src="<Baseloja>images/Sacola.gif" width="40" height="48" /></td>
+                <td><div style="position:relative;top:15px;margin-left:10px;"><a class="CinzaM" href="Track.asp?IDLoja=<IDLoja>" title="rastrear pedido">rastrear pedido</a></div></td>
+                <td><div style="position:relative;top:15px;"><a class="CinzaM" href="Ajuda.asp?IDLoja=<IDLoja>" title="ajuda">ajuda</a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="40" bgcolor="#EEEDEA"><table width="790" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="490">
+<div id="MenuHoriz">
+<ul id="jsddm">
+       <li><a class="MenHor"  href="#">produtos</a>
+       <ul>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=<IDLoja>&Lancamento=True">Novidades</a></li>   
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54124,Acessorios-eletronicos">Acessórios p/ eletrônicos</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54125,Artesanato">Artesanato</a></li>      
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54126,Bar">Bar</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54127,Cozinha">Cozinha</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54128,Escritorio">Escritório</a></li>        
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54129,Casa-e-Jardim">Casa e Jardim</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,61097,Kids">Kids</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54130,Mesa">Mesa</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54131,Organizadores">Organizadores</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54132,Saude-e-Bem-estar">Saúde e Bem-estar</a></li>       
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54133,Uso-Pessoal">Uso Pessoal</a></li> 
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54134,Viagem">Viagem</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,70227,Vinho">Vinho</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=<IDLoja>&Promocao=True">Promoções</a></li>
+         </ul>
+     </li>
+     <li><a class="MenHor" href="#">marcas</a>
+       <ul>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112176,black-blum">Black+blum</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112177,bluelounge">Bluelounge</a></li>
+         	<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,124226,Built-NY">Built NY</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131699,Chefn">Chef'n</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131700,Cumaru">Cumaru</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131698,Flivo">Flivo</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131772,Garden-du-vin">Garden du vin</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,127466,Joby">Joby</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112181,Joseph-Joseph">Joseph Joseph</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112182,Konstantin-Slawinski">Konstantin Slawinski</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112183,Magisso">Magisso</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,115125,OXO-tot">OXO tot</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112184,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131773,Prana-Gourmet">Prana Gourmet</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112185,quirky">Quirky</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112186,Sabi">Sabi</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112187,slice">Slice</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112188,Vacu-vin">Vacu vin</a></li> 
+       </ul>    
+     </li>
+     <li><a class="MenHor" href="#">designers</a>
+       <ul>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66184,Alfredo-Muccino">Alfredo Muccino</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84601,Chauhan-Studio">Chauhan Studio</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84602,Damian-Evans">Damian Evans</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66185,Dan-Black">Dan Black</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84603,David-Holcomb">David Holcomb</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66186,Derek-Roberts">Derek Roberts</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66187,Design-Wright">Design Wright</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66188,Ding3000">Ding3000</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66189,Dominic-Symons">Dominic Symons</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66190,Gillian-Westley">Gillian Westley</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,68737,Goodwin-Hartshorn-Joseph-Joseph)">Goodwin Hartshorn</a></li>   
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66191,Graeme-Davies">Graeme Davies</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66193,IIC-design-team">IIC design team</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71853,Juhani-Siren">Juhani Sirén</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66195,Karin-Rashid">Karim Rashid</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71858,Laura-Bougdanos">Laura Bougdanos</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71854,Maria-Kivijarvi">Maria Kivijärvi</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,68738,Mark-Sanders">Mark Sanders</a></li> 
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66196,Martin-Blum">Martin Blum</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66198,Morph-UK">Morph UK</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66199,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66200,Scot-Herbest">Scot Herbest</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,73265,Smart-Design">Smart Design</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66201,Studio-Dreimann">Studio Dreimann</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71855,Vesa-Jaasko">Vesa Jääskö</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66202,Yves-Behar">Yves Béhar</a></li> 
+       </ul> 
+     </li>
+     <li><a class="MenHor" href="#">prêmios</a>
+       <ul>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66134,American-Photo-Editors-Choice">American Photo Editors’ Choice</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66135,Cooking-Club-of-America">Cooking Club of America</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,67366,Core77-Design-Award">Core77 Design Award</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66136,Creative-Home-Arts-Club">Creative Home Arts Club</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66137,Design-Plus">Design Plus</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66138,Designpreis-Deutschland">Designpreis Deutschland</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66139,Excellence-in-Housewares-Awards">Excellence in Housewares Awards</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71856,Fennia-Prize">Fennia Prize</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66140,Focus-Open">Focus Open</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66141,Form-Design-Prize">Form Design Prize</a></li> 
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66142,German-Design-Award">German Design Award</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84600,Gift-of-the-Year">Gift of the Year</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71857,Global-Innovation-Award">Global Innovation Award</a></li>      
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66143,Good-Design-Award">Good Design Award</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,68739,Good-Design-Award-Japan">Good Design Award (Japan)</a></li>   
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66144,Good-Industrial-Design">Good Industrial Design</a></li>     
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66145,Housewares-Design-Award">Housewares Design Award</a></li>    
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66146,iF-Design-Award">iF Design Award</a></li>    
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66147,Innovations-Design-and-Engineering-Showcase-Award">Innovations Design and Engineering Showcase Award</a></li>         
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,73270,IDEA">IDEA</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66599,Product-of-the-Year-Award">Product of the Year Award</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66150,RedDot-Design-Award">RedDot Design Award</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,67365,Spark-Design-Awards">Spark Design Awards</a></li>
+       </ul> 
+     </li>
+            <li><a class="MenHor" href="#">presentes</a>
+       <ul>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=0&PrecoAte=50">Até R$ 50,00</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=50&PrecoAte=100">De R$ 50,00 a R$ 100,00</a></li>      
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=100&PrecoAte=200">De R$ 100,00 a R$ 200,00</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=200&PrecoAte=10000">Acima de R$ 200,00</a></li>          
+       </ul>
+     </li>
+</ul></div></td>
+              <td width="300" height="40" background="<Baseloja>images/FdBusca.gif"><table width="300" border="0" cellspacing="0" cellpadding="0">
+                <script>
+	function VerTexto(oNome){
+	if (oNome.texto.value==''){
+	alert('Digite o que deseja pesquisar');
+	oNome.texto.focus();return false;}else{return true;
+	}
+	}
+</script>
+				<form method="get" action="ListaProdutos.asp" name="fBusca" onSubmit="return VerTexto(this);">
+				<input type="hidden" name="IDLoja" value="23005">
+				<input type="hidden" name="Digitada" value="True">
+				<input type="hidden" name="Y" value="<Y>">
+                <tr>
+                  <td width="260" height="30"><input class="InputBusca" type="text" name="texto" size="37" maxlength="100" value="" onClick="this.value=''" /></td>
+                  <td width="30"><input type="image" name="Ok" src="<Baseloja>images/Trans.gif" width="30" height="30" border="0" class="BotOk" /></td>
+                  <td width="10">&nbsp;</td>
+                </tr>
+                </form>
+              </table></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="50" valign="top" bgcolor="#EEEDE9"><a href="http://www.designanyware.com.br/Ajuda.asp?IDLoja=23005#Pagamentos"><img src="<Baseloja>images/BarProm.gif" width="990" height="40" border="0"></td>
+  </tr>
+</table>
+<div id="MostraHome">
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+    	<div id="slider" class="nivoSlider"> 
+		<banner 1>
+		<banner 2>
+		<banner 3>
+		<banner 4>
+		<banner 5>
+		</div>
+    </td>
+  </tr>
+</table>
+</div>
+<script type="text/javascript">
+
+
+
+var myid = new Array();
+
+
+//MARCAS
+
+myid[0] = ["Slice.js",
+"112187"];
+
+myid[1] = ["Sabi.js",
+"112186"];
+
+myid[2] = ["Quirky.js",
+"112185"];
+
+myid[3] = ["BlackBlum.js",
+"112176"];
+
+myid[4] = ["Bluelounge.js",
+"112177"];
+
+myid[5] = ["built.js",
+"124226"];
+
+myid[6] = ["Joby.js",
+"127466"];
+
+myid[7] = ["JosephJoseph.js",
+"112181"];
+
+myid[8] = ["KonstantinSlawinski.js",
+"112182"];
+
+myid[9] = ["Magisso.js",
+"112183"];
+
+myid[10] = ["oxotot.js",
+"115125"];
+
+myid[11] = ["VacuVin.js",
+"112188"];
+
+myid[12] = ["Chefn.js",
+"131699"];
+
+myid[13] = ["Cumaru.js",
+"131700"];
+
+myid[14] = ["Flivo.js",
+"131698"];
+
+myid[15] = ["DSPavelSidorenko.js",
+"112184"];
+
+myid[16] = ["Garden.js",
+"131772"];
+  
+myid[17] = ["Prana.js",
+"131773"];
+
+//PRÊMIOS
+
+myid[18] = ["AmericanPhoto.js",
+"66134"];
+
+myid[19] = ["CookingClub.js",
+"66135"];
+
+myid[20] = ["CreativeHom.js",
+"66136"];
+
+myid[21] = ["DesignPlus.js",
+"66137"];
+
+myid[22] = ["DDeutschland.js",
+"66138"];
+
+myid[23] = ["ExcellenceIn.js",
+"66139"];
+
+myid[24] = ["FenniaPrize.js",
+"71856"];
+
+myid[25] = ["FocusOpen.js",
+"66140"];
+
+myid[26] = ["FormDesign.js",
+"66141"];
+
+myid[27] = ["GermanDesign.js",
+"66142"];
+
+myid[28] = ["GlobalInnovation.js",
+"71857"];
+
+myid[29] = ["GoodDesign.js",
+"66143"];
+
+myid[30] = ["GoodIndustrial.js",
+"66144"];
+
+myid[31] = ["Housewares.js",
+"66145"];
+
+myid[32] = ["IfDesignAward.js",
+"66146"];
+
+myid[33] = ["Innovations.js",
+"66147"];
+
+myid[34] = ["Idea.js",
+"73270"];
+
+myid[35] = ["RedDotDesign.js",
+"66150"];
+
+myid[36] = ["SparkDesignAw.js",
+"67365"];
+
+myid[37] = ["Core77DesignAw.js",
+"67366"];
+
+myid[38] = ["GoodDAJapan.js",
+"68739"];
+
+myid[39] = ["Gift.js",
+"84600"];
+
+//DESIGNERS
+
+myid[40] = ["AlfredoMuccino.js",
+"66184"];
+
+myid[41] = ["ChauhanStudio.js",
+"84601"];
+
+myid[42] = ["DamianEvans.js",
+"84602"];
+
+myid[43] = ["DanBlack.js",
+"66185"];
+
+myid[44] = ["DavidHolcomb.js",
+"84603"];
+
+myid[45] = ["DerekRoberts.js",
+"66186"];
+
+myid[46] = ["DesignWrigth.js",
+"66187"];
+
+myid[47] = ["Ding3000.js",
+"66188"];
+
+myid[48] = ["DominicSymons.js",
+"66189"];
+
+myid[49] = ["GillianWestley.js",
+"66190"];
+
+myid[50] = ["GraemeDavies.js",
+"66191"];
+
+myid[51] = ["IICDesignTeam.js",
+"66193"];
+
+myid[52] = ["JuhaniSiren.js",
+"71853"];
+
+myid[53] = ["KarinRashid.js",
+"66195"];
+
+myid[54] = ["LauraBougdanos.js",
+"71858"];
+
+myid[55] = ["MariaKivijarvi.js",
+"71854"];
+
+myid[56] = ["MartinBlum.js",
+"66196"];
+
+myid[57] = ["MorphUK.js",
+"66198"];
+
+myid[58] = ["PavelSidorenko.js",
+"66199"];
+
+myid[59] = ["ScotHerbest.js",
+"66200"];
+
+myid[60] = ["SmartDesign.js",
+"73265"];
+
+myid[61] = ["StudioDreimann.js",
+"66201"];
+
+myid[62] = ["VesaJaasko.js",
+"71855"]
+
+myid[63] = ["YvesBehar.js",
+"66202"];
+
+myid[64] = ["DiyProduct.js",
+"66599"];
+
+myid[65] = ["GoodwinHartshorn.js",
+"68737"];
+
+myid[66] = ["MarkSanders.js",
+"68738"];
+
+
+	var path = "../lojas/00023005/htm/Arqs/";
+
+	function geralink( sPag )
+	{
+		for (x in myid)
+		{
+			for (y in myid[x])
+			{
+				if( sPag.indexOf( myid[x][y] ) >= 0 )
+				{
+					document.write("<SCR" + "IPT LANGUAGE='JavaScript' SRC='"+path+myid[x][0]+"' TYPE='text/javascript'><\/SCR" + "IPT>");
+				}
+			}
+		}
+	}
+
+	
+
+var sPag=document.location.href.toUpperCase();
+
+if(sPag.indexOf("HOME.ASP")>=0 || sPag.indexOf("IDPRODUTO")>=0 || sPag.indexOf("AJUDA")>=0 || sPag.indexOf("ADDPRODUTO")>=0 || sPag.indexOf("CONFIRMACAO")>=0 || sPag.indexOf("PROMOCAO")>=0 || sPag.indexOf("LANCAMENTO")>=0 || sPag.indexOf("BUSCAAVANCADA")>=0 || sPag.indexOf("NEWSLETTER")>=0 || sPag.indexOf("INDIQUE")>=0 || sPag.indexOf("RECALCULA")>=0 || sPag.indexOf("FORMAPAGTO")>=0 || sPag.indexOf("FALECONOSCO")>=0 || sPag.indexOf("NOTICIAS")>=0 || sPag.indexOf("CONFIRMACAO")>=0 || sPag.indexOf("TEXTO")>=0 || sPag.indexOf("ADDMULT")>=0 || sPag.indexOf("DESTAQUE")>=0 || sPag.indexOf("LIQUIDACAO")>=0 || sPag.indexOf("QUEMSOMOS")>=0 || sPag=="HTTP://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTP://DESIGNANYWARE.COM.BR/" || sPag=="HTTP://DESIGNANYWARE.LOJAVIRTUALFC.COM.BR/") {
+	
+	document.write("");
+	
+} else {
+
+	geralink( sPag );
+
+}
+
+</script>`
