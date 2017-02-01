@@ -1,0 +1,9 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_FenniaPrize.gif" width="214" height="126" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Fennia Prize</span></p><p align="justify">Fennia Prize é o concurso de design mais conceituado da Finlândia. Direcionado para empresas, seu objetivo é apoiar a criação de produtos e serviços de alto padrão e promover a competitividade e internacionalização das indústrias. É uma importante oportunidade para as empresas se destacarem de seus concorrentes, apresentando produtos criados a partir de um design inovador, responsável e economicamente viável.</p><p align="justify">O júri analisa os trabalhos apresentados através de critérios como usabilidade, responsabilidade social e ambiental, propriedades estéticas e visuais, competitividade e viabilidade econômica. Os produtos vencedores têm o direito de usar o logotipo do Fennia Prize na sua comercialização, como uma prova da alta qualidade de seu design.</p><p align="justify">A competição, que acontece a cada dois anos, é organizada pelo Fórum de Design da Finlândia e pelo Grupo Fennia. O Fórum, mantido pela sociedade Finlandesa de Artesanato e Design, é responsável pela realização do concurso, pelas informações relacionadas e exposição do prêmio. O Grupo Fennia suporta o empreendedorismo e visa melhorar a competitividade das empresas, sendo responsável pela doação dos prêmios.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
