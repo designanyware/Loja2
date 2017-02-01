@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_BlackBlum.gif" width="214" height="60" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Black+Blum</span></p>');
+document.write('      <p align="justify">Black + Blum é uma parceria anglo-suiça, iniciada em 1998 num estúdio no centro de Londres. Dan Black e Martin Blum, que davam consultoria para outras empresas, foram movidos pela oportunidade de desenvolver sua própria linha de produtos, explorando em cada projeto toda sua criatividade e desejo de inovação.</p><p align="justify">A marca Black + Blum cria e comercializa produtos para o lar e escritório, aliando praticidade com estética e oferece a seus consumidores peças funcionais, encantadoras e divertidas, com um mix da personalidade dos criadores.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
