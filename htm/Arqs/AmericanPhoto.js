@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_AmericanPhoto.gif" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">American Photo Editors’ Choice</span></p><p align="justify">American Photo é uma publicação bimestral americana, sobre fotografia criativa. Todos os anos os editores da revista se reúnem com outros editores e especialistas na área para escolher os melhores equipamentos fotográficos lançados no mercado no ano anterior. Os eleitos recebem o selo American Photo Editors’ Choice.</p><p align="justify">Os vencedores devem atender aos mais altos padrões de qualidade e se qualificar como “game-changing”, ou seja, produtos que revolucionaram ou que tem potencial para revolucionar os trabalhos fotográficos.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
