@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Quirky.gif" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Quirky</span></p>');
+document.write('     <p align="justify">Fundada em 2009, por Ben Kaufman, a Quirky é uma empresa americana que rapidamente mudou a maneira de se pensar sobre desenvolvimento de produto.</p><p align="justify">Através de seu site, a empresa permite que internautas inscrevam suas ideias para a invenção de produtos que possam solucionar pequenos problemas cotidianos.</p><p align="justify">As melhores propostas viram protótipos nas mãos dos designers da empresa e são testadas no e-commerce do site. Depois de aprovadas pelos consumidores, são produzidas em série. Os inventores e colaboradores recebem uma porcentagem das vendas, além de ter seus nomes perpetuados nas embalagens dos produtos. ');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
