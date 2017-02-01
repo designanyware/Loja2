@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/Core77DesignAw.gif" width="214" height="109" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Core77 Design Award</span></p>');
+document.write('      <p align="justify">Lançado em 2011, o Core77 Design Award é o concurso anual promovido pelo portal de design Core 77. Seu objetivo é reconhecer a excelência em todas as áreas do design, assim como a riqueza da profissão de designer e o mérito de seus praticantes.</p><p align="justify">Com categorias progressivas, em campos profissionais e estudantis e com um processo de julgamento único, que combina perspectivas globais com experiência local o prêmio é considerado um dos mais inclusivos e transparentes na indústria do design. Seu júri conta com participantes de todo o mundo e os resultados são transmitidos ao vivo pela internet, via streaming.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
