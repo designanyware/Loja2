@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Prana.png" width="214" height="100" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Prana Gourmet</span></p>');
+document.write('      <p align="justify">Criada em 2006, a Prana é uma empresa brasileira que faz parte de um grupo com mais de 30 anos de experiência em vários segmentos:  industrial, importação e exportação, distribuição e serviços. A empresa desenvolve seus próprios produtos, com conceito e desenho inovadores, com o objetivo de oferecer aos consumidores produtos diferenciados e de qualidade, que facilitem a vida das pessoas.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
