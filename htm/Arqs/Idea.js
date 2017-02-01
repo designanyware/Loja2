@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_Idea.jpg" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">International Design Excellence Awards</span></p><p align="justify"> Criado em 1980, O prêmio IDEA (International Design Excellence Awards) é concedido anualmente pela IDSA (Industrial Designers Society of America) em parceria com as revistas Business Week e Fast Company.</p><p align="justify"> O prêmio é dedicado à promoção de negócios e ao desenvolvimento da compreensão do público sobre a importância da excelência do design industrial para a qualidade de vida e para a economia. Os juízes são escolhidos a partir de diferentes empresas internacionais ligadas ao design e os principais critérios de julgamento são: inovação, benefício para os usuários, responsabilidade social, econômica e ambiental, usabilidade, bem como apelo visual e estética adequada.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
