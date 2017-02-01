@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_ScotHerbest.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Scot Herbest</span></p>');
+document.write('      <p align="justify">Graduado pelo Art Center College of Design, Scot Herbst resolve complexos problemas de projeto com um mix de simplicidade visual e mecânica. Procurado por marcas líderes da indústria, o trabalho icônico de Scot pode ser visto em modernos móveis, aparelhos eletrônicos, utensílios domésticos e brinquedos.</p><p align="justify">Foi Designer-chefe na Lunar Design na Califórnia, onde desenvolveu o HP TouchSmart. Deixou o Vale do Silício para que ele e sua esposa Amy, pudessem lançar a Kaiku (crescer, em japonês), uma empresa de design, focada na produção de brinquedos de qualidade, feitos à mão, que reflete seu amor pelo design moderno e dedicação para manter as crianças ativas e saudáveis.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
