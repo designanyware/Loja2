@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_CreativeHomeArts.gif" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Creative Home Arts Club</span></p>');
+document.write('      <p align="justify">O Creative Home Arts Club é um clube e uma revista sobre artesanato e trabalhos manuais em geral, que inclui dicas, passo a passo, fóruns e testes de produtos. Faz parte do North Amercian Membership Group, Inc. </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
