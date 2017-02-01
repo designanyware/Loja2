@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Bobble.gif" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Bobble</span></p>');
+document.write('     <p align="justify"> BobbleTM é a marca registrada da Move Collective, uma pequena empresa sediada em Nova Iorque, criada em 2009.</p><p align="justify"> Apaixonados por design e defensores do meio ambiente, seus fundadores Richard e Stephanie Smiedt acreditam que todo projeto deve ter um propósito que vá além da beleza.</p><p align="justify"> A principal filosofia de trabalho da empresa é proteger o meio ambiente, desenvolvendo produtos sustentáveis e com design de qualidade, a preços acessíveis. O primeiro e mais reconhecido projeto da empresa é uma garrafa d’água reutilizável com um filtro acoplado, projetada com a intenção de mudar os hábidos de consumo das pessoas, diminuindo o consumo em massa das garrafas plásticas descartáveis.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
