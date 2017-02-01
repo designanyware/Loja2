@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_GoodDesign.gif" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Good Design Award</span></p>');
+document.write('      <p align="justify">O prêmio Good Design, concedido pelo Museu de Arquitetura e design The Chicago Athenaeum, foi criado em 1950 e é hoje uma das mais antigas e prestigiadas competições de design do mundo. Fundado pelo antigo curador do MoMa, Edgar kaufmann Jr, juntamente com os pioneiros do design moderno Eero Saarinen, Charle e Ray Eame, Russel Wright e George Nelson, o prêmio concede, anualmente, reconhecimento internacional aos designers e fabricantes dos mais novos, visionários e inovadores produtos ao redor do mundo.</p><p align="justify">Considerado o “Oscar” do desenho industrial, a competição inclui outras áreas de atuação como arquitetura, meio ambiente, comunicação e até mesmo modelos de negócios que tem design no seu núcleo.</p><p align="justify">O júri baseia suas decisões em critérios estabelecidos no programa original de 1950, que avaliam características como inovação, forma, materiais, construção, conceito, função e utilidade. A aparência e o apelo estético dos produtos também são considerados. Desde a década de 50 a competição tem incentivado fabricantes e designers a melhorar seus padrões de design e qualidade. O museu permite e incentiva os designers e fabricantes a usarem o selo Good Design, criado em 1950 pelo designer americano Mort Goldsholl, nas embalagens e campanhas de divulgação dos produtos. ');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
