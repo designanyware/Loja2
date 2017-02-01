@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Joseph.gif" width="214" height="90" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Joseph Joseph</span></p>');
+document.write('      <p align="justify">Fundada em 2003 pelos irmãos gêmeos Richard e Antony Joseph, a Joseph Joseph se especializou no desenvolvimento de utensílios contemporâneos para cozinha. A marca é reconhecida internacionalmente por produzir itens com estilo único e tecnicamente inovadores e tornou-se uma das companhias que apresentou um dos crescimentos mais rápidos nessa área nos últimos anos.</p>');
+document.write('      <p align="justify">A habilidade ímpar de seus fundadores em combinar forma e funcionalidade ganhou reconhecimento global através dos vários prêmios de design que suas criações receberam.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
