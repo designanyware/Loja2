@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_DanBlack.jpg" width="214" height="240" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Dan Black</span></p>');
+document.write('      <p align="justify">Com um passado relacionado à manufatura, Dan cresceu em meio a discussões sobre produtos e design com sua família desde muito cedo. Sua paixão e talento para o design foram reconhecidos com prêmio “First Class Honours Degree” do respeitado curso de Desenho Industrial da Universidade de Northumbria (Newcastle).</p>');
+document.write('      <p align="justify">Dan ganhou mais projeção profissional trabalhando na IDEO (Londres), na Frog Design (Califórnia) e com Julian Brown no Studio Brown (Bath). Juntamente com seu amigo Martin Blum, Dan obteve sucesso em vários projetos, enquanto estudavam em Newcastle, de onde surgiu a ideia da parceria criativa Black+Blum.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
