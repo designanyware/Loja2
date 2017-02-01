@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_DesignPreis.gif" width="214" height="106" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Designpreis Deutschland (Prêmio de design da República Federal da Alemanha)</span></p><p align="justify">Fundado em 1969, o Designpreis der Bundesrepublik Deutschland, é o prêmio de design oficial da Alemanha, concedido anualmente pelo Ministério Federal de Economia e Tecnologia da Alemanha.</p><p align="justify">Os participantes são nomeados pelos ministros e senadores do Comércio e Indústria dos estados Alemães, ou pelo Ministério Federal de Economia e Tecnologia, e o pré-requisito é que o produto já tenha recebido algum prêmio de design nacional ou internacional. Por isso, o Designpreiss Deutschland também é conhecido como “o prêmio do prêmio”.</p><p align="justify">Concedido nas categorias: design de produto, design de comunicação, design ecológico e novos talentos, os critérios de julgamento incluem inovação criativa e técnica, estratégia de design, utilidade e sustentabilidade. Até cinco prêmios - de ouro e prata - em cada categoria, são entregues a cada ano, após uma dura concorrência.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
