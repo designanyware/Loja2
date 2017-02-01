@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_Morph.jpg" width="214" height="140" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Morph UK</span></p>');
+document.write('      <p align="justify">Morph UK é um estúdio de design situado em Londres, fundado em 1999 por Bill Holding e Ben Cox. Durante seus estudos, Holding e Cox perceberam que tinham muitas afinidades. Eles não apenas compartilhavam do mesmo gosto musical e mesma abordagem nos projetos, mas tinham os mesmos interesses profissionais, razão pela qual essa parceria se tornou uma consequência natural para ambos.</p><p align="justify">Desde a fundação do estúdio, a quantidade de clientes e projetos aumentou constantemente, e eles decidiram dividir o estúdio em duas áreas: design de produto e design gráfico. Entre seus clientes estão empresas de renome como Mandarina Duck, Tom Dixon, Joseph Joseph, Wedgwood, Modus, só para citar algumas.</p><p align="justify">O Morph UK concentra-se na criação de novas ideias e desenvolve um estilo individual que reflete essa filosofia. Além de numerosas exposições, onde seus produtos atraíram a atenção, também já recebeu alguns prêmios de design.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
