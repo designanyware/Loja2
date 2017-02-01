@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+   <head>
+      <title>XML</title>
+      <style>
+      img {border:0px}
+      a {font-size:8pt;color:#333333;font-family:tahoma,verdana;font-weight:bold;text-decoration:underline}
+      .EstTitXML {background:#EFEFEF;font-size:8pt;color:#333333;font-family:tahoma,verdana;font-weight:bold}
+      .EstPrecoProdCapaXML {color:#930000;font-size:8pt;font-family:arial;font-weight:bold}
+      .BordaHistory {border-style:solid;border-width:0px;border-color:#a0a0a0}
+      .EstTabTopoXML {padding:2px 2px 2px 2px;background:#EFEFEF;}
+	  .EstTabXML {background:#EFEFEF;font-family:Trebuchet MS,Arial,Tahoma,verdana,Helvetica,sans-serif;color:#000000;}
+	  .VermM_ {font-size:14px;font-family:'Oblik_Bold-webfont','Trebuchet MS',Arial,Tahoma,verdana,Helvetica,sans-serif;color:#EB0305;text-decoration:none;}
+      </style>
+   </head>
+   <body>
+      <table height="70" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr>
+          <td class="EstTabXML" align="center"><span class="VermM_">histórico de navegação</span></td>
+        </tr>
+		 <tr>
+          <td class="EstTabTopoXML"><table border="0" cellspacing="0" cellpadding="0" class="EstTabXML" align="center">
+          <tr>
+            <xsl:for-each select="HistoryProd/item">
+              <td align="center" valign="top">
+	              <table border="0" class="BordaHistory">
+	                <tr>
+	                  <td align="center">
+						<xsl:if test="string-length(image)&gt;0">						
+						<xsl:element name="a">
+						  <xsl:attribute name="href"><xsl:value-of select="link"/></xsl:attribute>
+						  <xsl:attribute name="target">_top</xsl:attribute>
+						  <img>
+						  <xsl:attribute name="src"> <!-- Chamada da imagem -->
+						    <xsl:value-of select="image"/>
+						  </xsl:attribute>
+						  <xsl:attribute name="alt"> <!-- alt da imagem -->
+						    <xsl:value-of select="title"/>
+						  </xsl:attribute>
+  						  <xsl:attribute name="width"> <!-- alt da imagem -->
+						    100
+						  </xsl:attribute>
+						</img>
+						</xsl:element>
+						</xsl:if>
+	                  </td>
+	                </tr>
+	              </table>
+              </td>
+            </xsl:for-each>
+          </tr>
+      </table></td>
+        </tr>
+      </table>
+   </body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
