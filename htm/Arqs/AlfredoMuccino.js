@@ -1,0 +1,16 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_AlfredoMuc.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Alfredo Muccino</span></p>');
+document.write('      <p align="justify">Ao longo dos últimos 25 anos, Alfredo Muccino ficou conhecido por oferecer design inovador e experiência em estratégia de marca para algumas das melhores marcas do mundo. Hoje ele é chefe de criação da Agência Liquid e tem trabalhado em estratégias de marca e lançamentos de produtos para empresas como Ask, Intuit, LSI, Microsoft, Seagate, Sony, Pantronics e Visa. As coleções desenhadas por Alfredo são vendidas ao redor do mundo e foram apresentadas nas revistas InStyle, Interior Design, Home and Garden, Elle Decor, WallPaper, entre outras.</p>');
+document.write('      <p align="justify">Seu trabalho foi reconhecido por algumas das mais prestigiadas organizações de design do mundo.</p>');
+document.write('      <p align="justify">Foi orador de destaque na San Jose State University, na University of Califoria Santa Cruz, entre outros, e lecionou sobre desenvolvimento de marca em todo os Estados Unidos, para a Associação de Marketing de Negócios.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
