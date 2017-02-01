@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_BlueLounge.gif" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">BlueLounge</span></p>');
+document.write('      <p align="justify">BlueLounge é um premiado estúdio internacional de design conhecido por seus produtos inovadores e elegantes, criados para consumidores que procuram soluções inteligentes, com uma estética de vanguarda.</p><p align="justify">Fundado em 1999, na Califórnia, a partir de uma parceria entre os designers Dominik Symons e Melissa Sunjaya, foi a partir de 2007 que começou a atrair investimentos para o desenvolvimento de sua marca própria. A marca Bluelounge reflete os valores e paixões de uma equipe jovem e vibrante, cuja inspiração e prazer pela vida se traduzem em produtos de sucesso atemporal.</p><p align="justify">Além dos produtos da marca Bluelounge, seu time de designers também desenvolve produtos para grandes corporações como Airwalk, Microsoft, Panasonic, entre muitas outras marcas que se beneficiam desse olhar contemporâneo.</p><p align="justify">Hoje sediada em Cingapura, a empresa também possui um estúdio em Jacarta, na Indonésia.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
