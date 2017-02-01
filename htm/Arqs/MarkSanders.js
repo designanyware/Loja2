@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_MarkSanders.gif" width="99" height="99" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Mark Sanders</span></p>');
+document.write('      <p align="justify">Mark Sanders é o líder da MAS Design – uma empresa especializada na integração entre desenho industrial e engenharia, criada em 1984. Graduado em “Industrial Design Engineering (IDE) pelo Royal College of Art/Imperial College, seguiu os princípios holísticos do design nos negócios. Hoje é professor no mesmo curso e administra o MAS Design a partir de sua casa/escritório. Seu portifólio inclui uma ampla gama de produtos premiados que vão desde utensílios de cozinha até mesas de trabalho, de válvulas industriais a bicicletas dobráveis, muitos dos quais estão expostos e vendidos em todo o mundo.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
