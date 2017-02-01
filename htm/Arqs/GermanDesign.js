@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_GermanDesignAward.gif" width="214" height="126" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">German Design Award</span></p><p align="justify">O German Design Award é um prêmio internacional de design concedido anualmente pelo Conselho Alemão de Design. São premiados os produtos de maior destaque nas categorias design de produto e design de comunicação. Personalidades do mundo do design também são homenageadas e há ainda um prêmio em dinheiro para jovens designers.</p><p align="justify">A competição tem como objetivo identificar, apresentar e premiar as tendências inovadoras e internacionais de design. Somente os trabalhos considerados pioneiros e comercializáveis e que de fato já provaram estarem aptos para o mercado, são pré-selecionados.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('</tr>');
+document.write('</table><br />');
