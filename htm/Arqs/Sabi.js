@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Sabi.gif" width="214" height="100" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Sabi</span></p>');
+document.write('      <p align="justify">A Sabi, cujo nome tem origem numa antiga filosofia japonesa que engrandece a vida cotidiana, é uma empresa focada na criação de produtos exclusivos voltados para a área da saúde e bem-estar, inspirados na ideia de que a vida cotidiana e as tarefas do dia a dia devem ser exaltadas.</p><p align="justify">A missão da empresa é criar produtos intuitivos e com um bom design, a fim de transformar os rituais diários em atividades prazerosas. Suas criações casam funcionalidade, simplicidade e estética, com o objetivo de fazer com que até as tarefas mais simples, se tornem mais agradáveis.</p><p align="justify">Através de seus produtos a Sabi espera inspirar seus usuários a saborearem os pequenos momentos.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
