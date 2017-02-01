@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Joby.gif" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Joby</span></p>');
+document.write('     <p align="justify"> Situada em São Francisco, Califórnia, a Joby revolucionou o mercado de acessórios para câmeras fotográficas no início de 2006, com sua linha de tripés flexíveis GorillaPod, e continua a redefinir o mercado de produtos eletrônicos, com suas linhas GorillaMobile e GorillaTorch.  Em 2011 a marca foi adquirida pelo grupo DayMen.</p><p align="justify"> A empresa acredita que um grande projeto começa com uma abordagem focada no usuário. Sua principal motivação é criar produtos revolucionários e com um bom design, que possam inspirar consumidores com um estilo de vida criativo e ativo.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
