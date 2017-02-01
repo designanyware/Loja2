@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_Reddot.gif" width="214" height="141" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Red Dot Design Award</span></p>');
+document.write('      <p align="justify">O Red Dot Design é um prêmio concedido pelo Centro de Design Nordrhein Westfalen, localizado em Essen, na Alemanha.</p>');
+document.write('      <p align="justify">Com início em 1955, é hoje uma das maiores e mais importantes competições do mundo e um dos mais desejados selos de qualidade em design. O prêmio é concedido anualmente em três diferentes categorias: design de produto, conceito de design e design de comunicação.</p><p align="justify">Os produtos inscritos são julgados de acordo com os mais elevados padrões. Um júri internacional, constituído por especialistas na área, avalia critérios como grau de inovação, funcionalidade, ergonomia, qualidade, durabilidade, entre outros.</p><p align="justify">Os produtos vencedores ficam expostos por pelo menos um ano nos Museus Red Dot Design na Alemanha e em Cingapura.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
