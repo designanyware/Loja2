@@ -1,0 +1,187 @@
+<ProdTop>
+<script>
+function LinkDisp(Estoque,IDProduto){
+ if(Estoque==-1 || Estoque==0){
+    document.write("<a href='javascript:MostraDisp(23005,"+ IDProduto +")' title='Clique aqui para ser avisado quando este produto estiver disponível'><img src='../lojas/00023005/images/aviseme.png' border='0'></a>");
+
+ }
+}
+
+function IndicaProd(IDProduto){
+document.write("<a href='javascript:MostraIndique(23005,"+IDProduto+")'><img src=../lojas/00023005/images/botindique.png border=0></a>");
+}
+
+</script>
+<FormProdMult>
+
+
+</ProdTop>
+
+
+
+
+
+<ProdLista>
+<table width="230" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><a href='/prod,IDLoja,<IDLojaNum>,IDProduto,<IDProduto>,<NomeProdUA>'><ImagemProd></a><br><br></td>
+  </tr>
+  <tr>
+    <td><table width="230" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a class="CinzaM" href='/prod,IDLoja,<IDLojaNum>,IDProduto,<IDProduto>,<NomeProdUA>'><NomeProd></a></td>
+        <td width="32" rowspan="2"><a class="CinzaM" href='/prod,IDLoja,<IDLojaNum>,IDProduto,<IDProduto>,<NomeProdUA>'><img src="<Baseloja>images/botsacolacapa.png" width="32" height="32" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td><span class="Preco"><PrecoSimples></span> <script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</ProdLista>
+
+
+
+
+<ProdDet>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="393" height="410" align="center" valign="top"><script type="text/javascript"> 
+ 
+$(function() {
+  var imgs = "<ImagemProdDet>";
+  var video = '<ImagemProdAmp>';
+ 
+  if (imgs != '') { 
+    var s = imgs.indexOf('prod/')+5;
+  
+    imgs = imgs.slice(s);
+ 
+    if (video != '') { video = video.substring(23); }
+ 
+    $("#imgProd").html(geraImagens(imgs,video));
+  
+  $("#imgProdMed").miniZoomPan({
+      sW: 393,
+      sH: 410,
+      lW: 393,
+      lH: 410
+    });}
+  
+  
+  $('#imgProdMini a').livequery("click",
+  function(a){
+    a.preventDefault();
+      $('#imgProdMed').html('<img src="'+$(this).attr("href").substring(0, $(this).attr("href").indexOf('.jpg'))+'.jpg" width="393" height="410" />');
+      /*$(".jqzoom").jqzoom(options);*/
+  $("#imgProdMed").miniZoomPan({
+      sW: 393,
+      sH: 410,
+      lW: 393,
+      lH: 410
+    });
+  });
+ 
+  $('#imgVideoMini a').livequery("click",
+  function(g){
+    g.preventDefault();
+$('#imgProdMed').html('<div id="imgVideoMini"><object><param name="movie" value="http://www.youtube.com/v/'+$(this).attr("href")+'&hl=pt-br&fs=1&rel=0&color1=0x2b405b&color2=0x6b8ab6"></param><param name="allowFullScreen" value="true"></param><param name="wmode" value="transparent"></param><param name="allowscriptaccess" value="always"></param><embed src="../lojas/00023005/images/YTPlayer.swf?vidId='+$(this).attr("href").substr(31)+'" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" width="393" height="410"></embed></object></div><br /><br />');
+  });
+});
+
+$(function() {
+  var zIndexNumber = 1;
+  $('imgVideoMini').each(function() {
+    $(this).css('zIndex', zIndexNumber);
+    zIndexNumber -= 1;
+  });
+    });
+ 
+</script><div id="imgProd" style="border: 0px solid #DADFE9;"></div></td>
+    <td width="40">&nbsp;</td>
+    <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="70">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="NomeProdDet"><NomeProd></span></td>
+      </tr>
+      <tr>
+        <td height="77"><Descricao></td>
+      </tr>
+      <tr>
+        <td><table width="90%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><span class="PrecoProdDet"><PrecoSimples></span> <script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></td>
+            <td width="40">&nbsp;</td>
+            <td>Quant.: <IncMult></td>
+            <td width="116"><LinkComprar><script type="text/javascript">LinkDisp(<Estoque>,<IDProduto>);</script></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="40">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table><tr>
+            <div id="ShowCEP<IDProduto>"></div>
+            <script>ShowCEP(<IDProduto>);</script>
+      <tr>
+        <td height="20">&nbsp;</td>
+      </tr>
+  <td><ShareFacebook></td>
+  <td><ShareTwitter></td>
+  <td><Facebook type="like" send="true" layout="button_count" width="150" show_faces="false"></td>
+  <td><GooglePlusOne size="small"></td>
+  <td><div class="addthis_toolbox addthis_default_style "><a class="addthis_button_pinterest_pinit"></a></div><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-517dbbce219d66a3"></script></td>
+  <td><Vakinha></td>
+  <td><script>IndicaProd(<IDProduto>);</script></td>
+</tr>
+</table>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><DescrHTM></td>
+  </tr>
+  <tr>
+    <td height="30">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><VideoProd></td>
+  </tr>
+  <tr>
+    <td height="30">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #CCC;">
+  <tr>
+    <td><CrossSelling></td>
+  </tr>
+</table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><Comments>
+</td>
+  </tr>
+</table>
+
+</ProdDet>
+
+
+ <ProdBottom>
+ 
+ </FormProdMult>
+ 
+ </ProdBottom>
