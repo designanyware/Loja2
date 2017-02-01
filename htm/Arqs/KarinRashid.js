@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_KarinRashid.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Karim Rashid</span></p><p align="justify">Karim Rashid nasceu no Egito, cresceu na Inglaterra, estudou no Canadá, trabalhou na Itália por alguns anos até que abriu seu próprio estúdio em Nova York, em 1993.</p><p align="justify"> Considerado um dos designers mais produtivos de sua geração, tem mais de 3000 projetos em produção e já recebeu mais de 300 prêmios. Seu trabalho está presente em mais de 35 países, fazendo dele uma lenda do design.</p><p align="justify">Seu design é tipicamente minimalismo sensual, ou sensualismo, onde os objetos comunicam, envolvem, inspiram e ainda permanecem relativamente mínimos.</p><p align="justify">Sua obra inclui desde objetos populares, para marcas como a Umbra, Slice, Method e Dirt Devil, passando por mobiliário para a Artemide and Magis, identidade visual para o Citibank e Hyundai, até produtos de alta tecnologia para a LaCie e Samsung, e artigos de luxo para Veuve Clicquot e Swarovski, apenas para citar alguns.</p><p align="justify">Seu trabalho é destaque em 20 coleções permanentes e participa de exposições em galerias de arte em todo o mundo. Karim é vencedor constante de prêmios como Red Dot, Chicago Athenaeum Good Design Award, ID Magazine Annual Design Review, IDSA Industrial Design Excellence Award.</p><p align="justify">Em seu tempo livre, o pluralismo de karim também flerta com a arte, moda e música e está determinado a dar seu toque de criatividade em todos os aspectos da nossa paisagem física e virtual.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
