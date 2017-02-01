@@ -1,0 +1,278 @@
+<script>
+function ValidaForm(){
+
+ //Contato Nome
+ if(isEmpty(document.form.NomeDe.value)){
+    AvisoErroCampo(document.form.NomeDe,'Informe seu nome.');
+    return false;
+ }
+
+ //E-mail
+ if(isEmpty(document.form.EmailDe.value) || !ValidaEmailInt(document.form.EmailDe.value)){
+    AvisoErroCampo(document.form.EmailDe,'Informe seu e-mail.');
+    return false;
+ }
+
+ // Verifica se foi escolhido Prazo Informado
+ var checkedButton=false;
+ for (i=0;i<3;i++) if(document.form.Pergunta_01[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe se a loja realizou a entrega no prazo informado.");
+   document.form.Pergunta_01[0].focus();
+   return false;
+ }
+
+ // Verifica se encontrou o que desejava
+ var checkedButton=false;
+ for (i=0;i<2;i++) if(document.form.Pergunta_02[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe se encontrou o que desejava.");
+   document.form.Pergunta_02[0].focus();
+   return false;
+ }
+
+ // Verifica como conheceu a DESIGN anyware
+ var checkedButton=false;
+ for (i=0;i<7;i++) if(document.form.Pergunta_03[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe como conheceu a designanyware.");
+   document.form.Pergunta_03[0].focus();
+   return false;
+ }
+
+ // Verifica qual promoção gostaria de ver na loja
+ var checkedButton=false;
+ for (i=0;i<3;i++) if(document.form.Pergunta_04[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe qual promoção gostaria de ver na loja virtual.");
+   document.form.Pergunta_04[0].focus();
+   return false;
+ }
+
+ // Verifica se recomendaria nossa loja
+ var checkedButton=false;
+ for (i=0;i<3;i++) if(document.form.Pergunta_05[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe se recomendaria nossa loja.");
+   document.form.Pergunta_05[0].focus();
+   return false;
+ }
+
+ // Verifica se precisou de ajuda para fechar o pedido
+ var checkedButton=false;
+ for (i=0;i<4;i++) if(document.form.Pergunta_06[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe se precisou de ajuda para realizar o pedido.");
+   document.form.Pergunta_06[0].focus();
+   return false;
+ }
+
+ //Comentários
+ if(isEmpty(document.form.Comentarios.value)){
+    AvisoErroCampo(document.form.Comentarios,'Comentário não pode ser branco.');
+    return false;
+ }
+
+// Verifica autoriza a publicacao do depoimento
+ var checkedButton=false;
+ for (i=0;i<2;i++) if(document.form.Pergunta_07[i].checked) checkedButton=true;
+ if (!checkedButton) {
+   alert("Informe se autoriza a publicação do depoimento.");
+   document.form.Pergunta_07[0].focus();
+   return false;
+ }
+
+ document.form.submit();
+}
+
+function ValidaEmailInt(sEmail) {
+  var regex=/^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
+  return regex.test(sEmail);
+}
+
+function retiraEspaco(theString) {
+//retira espaços de string
+  if(theString.indexOf(" ")>=0){
+    var i=0;
+    while(theString.indexOf(" ")>=0){
+      if(theString.charAt(i)==" ")theString=theString.substring(0,i)+theString.substring(i+1,theString.length);
+      else i++;
+    }
+    newString=theString;
+  } 
+  else newString=theString;
+  return newString;
+}
+
+function isEmpty(s){return((retiraEspaco(s)==null)||(retiraEspaco(s).length==0));}
+
+function AvisoErroCampo(theField,warnText){
+  theField.focus();
+  theField.select();
+  alert(warnText);
+  return false;
+}
+
+function AvisoErroCampo_SelectBox(theField,s){
+  theField.focus();
+  alert(s);
+  return false;
+}
+</script>
+
+<style>
+.EstTabPedidoTit{background:#EB0305;border:1px solid #dedede;width:100%}
+</style>
+
+<table align=center width=100% cellspacing=1 cellpadding=5 class=EstTabPedido border=0>
+      <form name=form method=POST action=EnviaMail.asp>
+        <input type=hidden name=NomePara value='<NomeLoja>'>
+        <input type=hidden name=EmailPara value='<mailinfo>'>
+        <input type=hidden name=Assunto value='Pesquisa de satisfação'>
+        <input type=hidden name=URLRetorno value='<HTMLoja>PesqObrigado.htm'>
+        <input type=hidden name=OrdemCampos value='NomeDe,EmailDe,Pergunta_01,Pergunta_02,Pergunta_03,Pergunta_04,Pergunta_05,Pergunta_06,Comentarios,Pergunta_07'>
+  <tr>
+    <td align=center colspan=3 class=EstTabPedidoTit>Por favor, pedimos que responda às perguntas abaixo para nos ajudar a melhorar a qualidade de nossos serviços.</td>
+  </tr>
+  <tr>
+    <td align=right class=EstNomeCampo>Nome:</td>
+    <td colspan=2><input type=text name=NomeDe class=InputText size=45 maxlength=50></td>
+  </tr>
+  <tr>
+    <td align=right class=EstNomeCampo>E-mail:</td>
+    <td colspan=2><input type=text name=EmailDe class=InputText size=45 maxlength=50></td>
+  </tr>
+
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>O pedido foi recebido no prazo informado pela loja?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_01" value="Sim, recebi antes do prazo">Recebi antes do prazo
+    </td>
+    <td>
+      <input type=radio name="Pergunta_01" value="Sim, recebi no prazo">Recebi no prazo exato
+    </td>
+    <td>
+      <input type=radio name="Pergunta_01" value="Não, recebi depois do prazo">Recebi depois do prazo
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>Foi fácil encontrar o que desejava?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_02" value="Sim">Sim
+    </td>
+    <td>
+      <input type=radio name="Pergunta_02" value="Não">Não
+    </td>
+    <td>
+      &nbsp;
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>Como você conheceu a DESIGN anyware?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_03" value="facebook">facebook
+    </td>
+    <td>
+      <input type=radio name="Pergunta_03" value="twitter">twitter
+    </td>
+    <td>
+      <input type=radio name="Pergunta_03" value="Pinterest">Pinterest
+</tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_03" value="Indicação de amigos">Indicação de amigos
+    </td>
+    <td>
+      <input type=radio name="Pergunta_03" value="Ferramentas de busca">Ferramentas de busca
+    </td>
+    <td>
+      <input type=radio name="Pergunta_03" value="Banner publicitário">Banner publicitário
+    </td>
+  </tr>
+</tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_03" value="Comparadores de preço">Comparadores de preço
+    </td>
+    <td>
+      <input type=radio name="Pergunta_03" value="Outros">Outros
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>Qual promoção gostaria de ver em nosso site?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_04" value="Frete Grátis">Frete Grátis
+    </td>
+    <td>
+      <input type=radio name="Pergunta_04" value="Descontos">Descontos
+    </td>
+    <td>
+      <input type=radio name="Pergunta_04" value="Brindes">Brindes
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>Você recomendaria nossa loja para seus amigos?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_05" value="Sim, com certeza!">Sim, com certeza!
+    </td>
+    <td>
+      <input type=radio name="Pergunta_05" value="Recomendaria com restrições">Recomendaria com restrições
+    </td>
+    <td>
+<input type=radio name="Pergunta_05" value="Não recomendaria">Não recomendaria
+    </td>
+    <td>
+      &nbsp;
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3 class=EstTabPedidoTit>Precisou da ajuda para realizar o pedido?</td>
+  </tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_06" value="Sim. Liguei para o atendimento">Sim. Liguei para o atendimento
+    </td>
+    <td>
+      <input type=radio name="Pergunta_06" value="Sim. Utilizei o chat">Sim. Utilizei o chat
+    </td>
+    <td>
+ <input type=radio name="Pergunta_06" value="Sim. Entrei em contato por e-mail">Sim. Entrei em contato por e-mail
+          </td>
+    </tr>
+    <tr>
+      <td><input
+      <input type=radio name="Pergunta_06" value="Não">Não
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan=3 align=center class=EstTabPedidoTit>Gostaria de deixar um depoimento contando o que achou da experiência, do nosso site, do atendimento e/ou dos produtos? Fique a vontade, críticas, elogios e sugestões são sempre bem-vindos.</td>
+  </tr>
+  <tr>
+    <td colspan=3 align=center><textarea wrap=virtual cols=18 rows=4 name="Comentarios" class=InputText style=height:50px;width:550px></textarea></td>
+  </tr>
+  <tr>
+</tr>
+  <tr>
+    <td>
+      <input type=radio name="Pergunta_07" value="Autorizo a publicação do depoimento no website, caso seja de interesse da loja">Autorizo a publicação do depoimento no website, caso seja de interesse da loja
+    </td>
+    <td>
+      <input type=radio name="Pergunta_07" value="Não autorizo a publicação do depoimento no website da loja">Não autorizo a publicação do depoimento no website da loja
+       </tr>
+    <tr>
+    <td colspan=3 align=center><input type=button name=Enviar value=' Enviar ' class=InputButton onclick='javascript:ValidaForm()'></td>
+  </tr></form>
+</table>
