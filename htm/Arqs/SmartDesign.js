@@ -1,0 +1,15 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_SmartDesign.png" width="214" height="44" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Smart Design</span></p>');
+document.write('      <p align="justify"> Fundada em 1980, a Smart Design é uma premiada consultoria na área de design e inovação. Conta atualmente com escriórios em Nova York e San Francisco, nos EUA e em Barcelona, Espanha.Trabalha com empresas de todos os tamanhos e de diferentes áreas de atuação. </p>');
+document.write('      <p align="justify"> Seu principal objetivo é criar soluções de design que ao mesmo tempo encantem os consumidores e ajudem as empresas a atingir suas metas. Dessa forma, os produtos, serviços e estratégias por eles desenvolvidos pretendem gerar negócios e acima de tudo fazer uma diferença significativa na vida das pessoas.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
