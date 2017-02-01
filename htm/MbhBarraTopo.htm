@@ -1,0 +1,25 @@
+<script>
+var agent=navigator.userAgent.toLowerCase();
+var isIphone=((agent.indexOf('iphone')!=-1));
+if(isIphone){
+  document.write('<link href="<BaseLoja>htm/MbhIphone.css" rel="stylesheet" type="text/css">');
+  addEventListener("load",function(){setTimeout(hideURLbar,0)},false);function hideURLbar(){window.scrollTo(0,0.9)};
+}
+else{
+  document.write('<link href="<BaseLoja>htm/MbhMobile.css" rel="stylesheet" type="text/css">');
+}
+</script>
+<script src=<BaseLoja>htm/MbhLojaLib.js></script>
+<form name=fBusca method=GET action="listaProdutos.asp" onSubmit="return VerTexto(this)">
+<input type=hidden name=Digitada value="True">
+<input type=hidden name=IDLoja value="<IDLojaNum>">
+<input type=hidden name=Y value="<Y>">
+<div id="topbar"><div><a id="title" href="Home.asp?IDloja=<IDLoja>"><NomeLoja></a></div></div>
+<div id="TopSearch">
+<ul>
+  <li>Busca:</li>
+  <li><input type=text name=Texto class=InputTextBusca style="width:140px;height:25px;"></li>
+  <li><input type=submit name=ok value="Procurar"></li>
+</ul>
+</div>
+</form>
