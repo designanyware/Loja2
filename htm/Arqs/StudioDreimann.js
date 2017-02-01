@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_StudioDreimann.gif" width="214" height="120" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Studio Dreimann</span></p>');
+document.write('      <p align="justify">O Studio Dreimann cria e desenvolve produtos de consumo, produtos industriais e móveis. Jonas Ette, Simon Kux e Tim Prigge se encontraram pela primeira vez quando estudavam design de produto na University of Applied Sciences (Universidade de Ciências Aplicadas) em Hannover, Alemanha. Nessa época trabalhavam como estagiários em empresas como a Artefakt (Darmstadt), Ding3000 (Hannover) e Move Integrated Design (Copenhagem).</p><p align="justify">Posteriormente, com um diploma de bacharelado em Design nas mãos e treinados para a produção em massa e otimização de produtos, fundaram seu próprio estúdio de design, em Hannover, em 2010.</p><p align="justify">O design do Studio Dreimann não é determinado por um estilo formal, mas acima de tudo complementa formas familiares com novas funções e novas funções com formas familiares. Esta diretriz conduz à criação de produtos com valor adicional e emocional. </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
