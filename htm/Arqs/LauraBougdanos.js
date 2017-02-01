@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid#D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top">&nbsp;</td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /</td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Laura Bougdanos</span></p><p align="justify">A designer Finlandesa Laura Bougdanos reinventa e projeta utensílios domésticos com o objetivo de reduzir a complexidade das tarefas diárias.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
