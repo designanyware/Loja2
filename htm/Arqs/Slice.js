@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Slice.gif" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Slice</span></p><p align="justify">Se o seu objetivo é cortar, o objetivo da Slice é ajudá-lo a fazer isso com estilo, beleza e graça, pois cada produto Slice é uma junção apaixonada de design arrojado e extrema funcionalidade.</p><p align="justify">Fundada em 2008 por TJ Scimone, a empresa conta com a colaboração de alguns dos designers mais inovadores do planeta e tem como objetivo repensar e reinventar objetos do cotidiano, tornando-os melhores, mais fáceis de usar e mais bonitos.</p><p align="justify">O resultado desse trabalho é uma coleção de premiadas e inovadoras ferramentas de corte para casa, escola e escritório, que irá ajudar seus consumidores a cortar com muito estilo e inspirá-los a criar grandes obras de arte. ');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
