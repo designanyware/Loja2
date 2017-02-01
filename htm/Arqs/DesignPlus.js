@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('   <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_DesignPlus.gif" width="214" height="55" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Design Plus</span></p>');
+document.write('      <p align="justify">Há muito design por aí, mas não necessariamente bom design. Foi a partir dessa percepção que a competição Design Plus foi lançada, em 1983, organizada pela Messe Frankfurt, em parceria com o Conselho Alemão de Design e a Câmara Alemã da Indústria e Comércio, na ocasião da Feira internacional de bens de consumo Ambiente, em Frankfurt.</p><p align="justify">Hoje reconhecido mundialmente, o prêmio Design Plus está associado, além da Ambiente, às feiras ISH, Light+Building e Material Vision sendo considerado um dos principais concursos de design da Alemanha.</p><p align="justify">Um renomado júri internacional avalia os produtos a partir de aspectos como qualidade do projeto, o valor de utilidade, técnica e qualidade ecológica e conceito geral. Os vencedores (o expositor, o fabricante e os designers) recebem o prêmio na forma de um certificado e, enquanto o produto premiado for comercializado de forma inalterada, o fabricante pode marcá-lo com o selo oficial Design Plus.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
