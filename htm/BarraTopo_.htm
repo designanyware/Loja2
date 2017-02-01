@@ -1,0 +1,286 @@
+<script language=JavaScript src="<BaseLoja>htm/SimulaFreteFC.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/LojaLib.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/JurosParcelas.js"></script>
+<script src="<BaseLoja>htm/jquery.js" type="text/javascript"></script>
+<script src="<BaseLoja>htm/livequery.js" type="text/javascript"></script>
+<script src="<Baseloja>htm/miniZoomPan.js" type="text/javascript"></script>
+<script src="<BaseLoja>htm/cycle.js" type="text/javascript"></script>
+<script type="text/javascript">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+
+var sPag=document.location.href.toUpperCase();
+IDLojaNum='<IDLojaNum>';
+sCaminhoImages='<Baseloja>images/';
+</script>
+<script language="JavaScript">
+var sPag=document.location.href.toUpperCase();
+
+if(sPag.indexOf("HOME.ASP")>=0 || sPag=="HTTPS://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://WWW.DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.COM.BR/" || sPag=="HTTPS://DESIGNANYWARE.LOJAVIRTUALFC.COM.BR/")
+{
+document.write("<style>#MostraHome{display:block;}</style>");
+}
+else
+{
+document.write("<style>#MostraHome{display:none;}</style>");
+document.write("<style>#LimpaScript{display:none;}</style>");
+}
+</script>
+<div id="LimpaScript">
+<script type="text/javascript" src="<Baseloja>htm/jcarousellite.js"></script>
+<script type="text/javascript">jQuery(function(){$("#brand-rotator").find("div.window").jCarouselLite({btnNext:"img.next",btnPrev:"img.prev",auto:7000,speed:1000,visible:7,scroll:3})});</script>
+<script type="text/javascript" src="<Baseloja>htm/slider/jquery171.js"></script>
+<script type="text/javascript" src="<Baseloja>htm/slider/nivo_slider.js"></script>
+<link rel="stylesheet" href="<Baseloja>htm/slider/nivo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<Baseloja>htm/slider/nivo_slider.css" type="text/css" media="screen" />
+<script type="text/javascript">
+  jQuery.noConflict();
+  jQuery(window).load(function() {
+	jQuery('#slider').nivoSlider({
+        effect:"random",
+        slices:15,
+        boxCols:8,
+        boxRows:4,
+        animSpeed:500,
+        pauseTime:5000,
+        startSlide:0,
+        directionNav:true,
+        directionNavHide:true,
+        controlNav:true,
+        controlNavThumbs:false,
+        controlNavThumbsFromRel:true,
+        keyboardNav:true,
+        pauseOnHover:false,
+        manualAdvance:false
+    });
+	});
+</script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+</div>
+
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="495" height="30"><script language="JavaScript">
+
+today = new Date(); 
+hora = today.getHours();
+
+if ((hora >=6) && (hora < 12)) 
+document.write("<span class=VermM_><b>Bom dia!</b> </span>") 
+else 
+if ((hora >=12) && (hora < 18)) 
+document.write("<span class=VermM_><b>Boa tarde!</b> </span>") 
+else 
+if ((hora >=18) && (hora < 24)) 
+document.write("<span class=VermM_><b>Boa noite!</b> </span>") 
+else 
+if ((hora >=00) && (hora < 6)) 
+document.write("<span class=VermM_><b>Bom dia!</b> </span>") 
+
+
+if(''!='<NomeCliente>') {
+	
+document.write('<span class=CinzaM_>Se você não é </span><span class=VermM_><NomeCliente></span>,<a class=CinzaM_ href="Cadastro.asp?logoff=true&IDLoja=23005"> clique aqui.</a>');
+
+} else {
+
+document.write('<a class=CinzaM href=Cadastro.asp?IDLoja=23005>Identifique-se ou cadastre-se.</a>');
+
+}
+
+</script></td>
+    <td width="495" align="right"><a class="CinzaM" href="/page,idloja,23005,arq,QuemSomos.htm,quem-somos">quem somos</a><span class="CinzaM_">  |  <a class="CinzaM" href="FaleConosco.asp?IDLoja=<IDLoja>" title="Contato">contato</a> | <a class="CinzaM" href="/page,idloja,23005,arq,ClientesSatisfeitos.html,clientes-satisfeitos">clientes satisfeitos</a><span class="CinzaM_">  |  </span><a class="CinzaM" href="Cadastro.asp?logoff=true&amp;IDLoja=<IDLoja>" title="cadastro">cadastro</a> |  <a class="CinzaM" href="Cadastro.asp?logoff=true&amp;IDLoja=<IDLoja>" title="login">login</a> |  </span></td>
+  </tr>
+</table>
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="200" height="120" align="center" valign="top" background="<Baseloja>images/FdLogo.gif"><a href="home.asp?IDLoja=<IDLoja>"><img src="<Baseloja>images/TopoLogo.png" alt="DESIGN any ware" width="176" height="114" border="0" /></a></td>
+    <td width="790"><table width="790" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="80"><table width="790" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="395" height="80"><div style="position:relative;top:30px;margin-left:12px;"><span class="VermG_">Produtos que facilitam sua vida com muito estilo</span></div></td>
+            <td width="395"><table width="395" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right"><a class="PretoG"  href="AddProduto.asp?IDLoja=<IDLoja>" title="minhas compras">minhas compras</a></td>
+                <td width="44" align="center"><img src="<Baseloja>images/Sacola.gif" width="40" height="48" /></td>
+                <td><div style="position:relative;top:15px;margin-left:10px;"><a class="CinzaM" href="Track.asp?IDLoja=<IDLoja>" title="rastrear pedido">rastrear pedido</a></div></td>
+                <td><div style="position:relative;top:15px;"><a class="CinzaM" href="Ajuda.asp?IDLoja=<IDLoja>" title="ajuda">ajuda</a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="40" bgcolor="#EEEDEA"><table width="790" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="490">
+<div class="MenuHoriz">
+<ul id="jsddm">
+       <li><a class="MenHor" href="#">produtos</a>
+       <ul>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=<IDLoja>&Lancamento=True">Novidades</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54124,Acessorios-eletronicos">Acessórios p/ eletrônicos</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54125,Artesanato">Artesanato</a></li>      
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54126,Bar">Bar</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54127,Cozinha">Cozinha</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54128,Escritorio">Escritório</a></li>        
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54129,Casa-e-Jardim">Casa e Jardim</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,61097,Kids">Kids</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54130,Mesa">Mesa</a></li>  
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54131,Organizadores">Organizadores</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54132,Saude-e-Bem-estar">Saúde e Bem-estar</a></li>       
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54133,Uso-Pessoal">Uso Pessoal</a></li> 
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional3,54134,Viagem">Viagem</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=<IDLoja>&Promocao=True">Promoções</a></li>
+         </ul>
+     </li>
+     <li><a class="MenHor" href="#">marcas</a>
+       <ul>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112176,black-blum">Black+blum</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112177,bluelounge">Bluelounge</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131699,chefn">Chef'n</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131700,cumaru">Cumaru</a></li>
+            <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,131698,flivo">Flivo</a></li>
+  			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,127466,joby">JOby</a></li>Joby">Joby</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112181,Joseph-Joseph">Joseph Joseph</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112182,Konstantin-Slawinski">Konstantin Slawinski</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112183,Magisso">Magisso</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,115125,OXO-tot">OXO tot</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112184,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112185,quirky">Quirky</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112186,Sabi">Sabi</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112187,slice">Slice</a></li>
+			<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional1,112188,Vacu-vin">Vacu vin</a></li> 
+       </ul>    
+     </li>
+     <li><a class="MenHor" href="#">designers</a>
+       <ul>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66184,Alfredo-Muccino">Alfredo Muccino</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84601,Chauhan-Studio">Chauhan Studio</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84602,Damian-Evans">Damian Evans</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66185,Dan-Black">Dan Black</a></li>
+        <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84603,David-Holcomb">David Holcomb</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66186,Derek-Roberts">Derek Roberts</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66187,Design-Wright">Design Wright</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66188,Ding3000">Ding3000</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66189,Dominic-Symons">Dominic Symons</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66190,Gillian-Westley">Gillian Westley</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66191,Graeme-Davies">Graeme Davies</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66193,IIC-design-team">IIC design team</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71853,Juhani-Siren">Juhani Sirén</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66195,Karim-Rashid">Karim Rashid</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71858,Laura-Bougdanos">Laura Bougdanos</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71854,Maria-Kivijarvi">Maria Kivijärvi</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66196,Martin-Blum">Martin Blum</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66198,Morph-UK">Morph UK</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66199,Pavel-Sidorenko">Pavel Sidorenko</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66200,Scot-Herbest">Scot Herbest</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,73265,Smart-Design">Smart Design</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66201,Studio-Dreimann">Studio Dreimann</a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71855,Vesa-Jaasko">Vesa Jääskö </a></li>
+		<li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66202,Yves-Behar">Yves Béhar</a></li> 
+       </ul> 
+     </li>
+     <li><a class="MenHor" href="#">prêmios</a>
+       <ul>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66134,American-Photo-Editors-Choice">American Photo Editors’ Choice</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66135,Cooking-Club-of-America">Cooking Club of America</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66136,Creative-Home-Arts-Club">Creative Home Arts Club</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66137,Design-Plus">Design Plus</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66138,Designpreis-Deutschland">Designpreis Deutschland</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66139,Excellence-in-Housewares-Awards">Excellence in Housewares Awards</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71856,Fennia-Prize">Fennia Prize</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66140,Focus-Open">Focus Open</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66141,Form-Design-Prize">Form Design Prize</a></li> 
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66142,German-Design-Award">German Design Award</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,84600,Gift-of-the-year">Gift of the Year</a></li>
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,71857,Global-Innovation-Award">Global Innovation Award</a></li>        
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66143,Good-Design-Award">Good Design Award</a></li>        
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66144,Good-Industrial-Design">Good Industrial Design</a></li>     
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66145,Housewares-Design-Award">Housewares Design Award</a></li>    
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66146,iF-Design-Award">iF Design Award</a></li>    
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66148,Interior-Innovation-Award">Interior Innovation Award</a></li> 
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,73270,IDEA">IDEA</a></li>    
+         <li><a class="BrancoM" href="/prod,idloja,23005,avancada,1,adicional2,66150,RedDot-Design-Award">RedDot Design Award</a></li>               
+       </ul> 
+     </li>
+            <li><a class="MenHor" href="#">presentes</a>
+       <ul>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=0&PrecoAte=50">Até R$ 50,00</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=50&PrecoAte=100">De R$ 50,00 a R$ 100,00</a></li>      
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=100&PrecoAte=200">De R$ 100,00 a R$ 200,00</a></li>
+         <li><a class="BrancoM" href="ListaProdutos.asp?IDLoja=23005&Avancada=True&PrecoDe=200&PrecoAte=10000">Acima de R$ 200,00</a></li>     
+       </ul>
+     </li>
+</ul></div></td>
+              <td width="300" height="40" background="<Baseloja>images/FdBusca.gif"><table width="300" border="0" cellspacing="0" cellpadding="0">
+                <script>
+	function VerTexto(oNome){
+	if (oNome.texto.value==''){
+	alert('Digite o que deseja pesquisar');
+	oNome.texto.focus();return false;}else{return true;
+	}
+	}
+</script>
+				<form method="get" action="ListaProdutos.asp" name="fBusca" onSubmit="return VerTexto(this);">
+				<input type="hidden" name="IDLoja" value="23005">
+				<input type="hidden" name="Digitada" value="True">
+				<input type="hidden" name="Y" value="<Y>">
+                <tr>
+                  <td width="260" height="30"><input class="InputBusca" type="text" name="texto" size="37" maxlength="100" value="" onClick="this.value=''" /></td>
+                  <td width="30"><input type="image" name="Ok" src="<Baseloja>images/Trans.gif" width="30" height="30" border="0" class="BotOk" /></td>
+                  <td width="10">&nbsp;</td>
+                </tr>
+                </form>
+              </table></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<div id="MostraHome">
+<table width="990" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" bgcolor="#EEEDE9">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>
+    	<div id="slider" class="nivoSlider"> 
+		<banner 1>
+		<banner 2>
+		<banner 3>
+		<banner 4>
+		<banner 5>
+		</div>
+    </td>
+  </tr>
+</table>
+</div>
