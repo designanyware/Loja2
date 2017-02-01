@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_Excellence.gif" width="214" height="80" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Excellence in Housewares Awards</span></p>');
+document.write('      <p align="justify">O prêmio Excellence in Housewares é concedido e organizado anualmente pela revista Progressive Housewares, juntamente com The CHA (The Cookshop and Housewares Association), ambos da Inglaterra.</p><p align="justify">Lançado no ano 2000, tem sido adotado pela indústria e reconhecido como o Oscar das utilidades domésticas. O prêmio aponta os holofotes para os revendedores de varejo, pelas suas excelentes escolhas assim como para os fornecedores pela inovação e perspicácia de seus produtos, reconhecendo a inovação, integridade e comprometimento de ambos os lados da indústria de utilidades domésticas.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
