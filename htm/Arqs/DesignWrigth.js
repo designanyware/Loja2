@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_DesignWright.jpg" width="214" height="130" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Design Wright</span></p>');
+document.write('      <p align="justify">DesignWright é um estúdio de design com sede em Londres, fundado pelos irmão Ingleses Adrian e Jeremy Wright, especializado em design de produto e de mobiliário. Com conhecimento em engenharia - Jeremy cursou Engenharia Mecância antes de mudar para Desenho Industrial – o trabalho da dupla, na maioria das vezes reflete sua apreciação tanto pelo aspecto visual quanto técnico de um projeto.</p><p align="justify">DesignWright é uma empresa de pequeno porte, porém profissional, que trabalha com uma ampla gama de disciplinas de projetos, se interessa por projetos de todos os tamanhos e atua também dando consultoria sobre qualquer assunto criativo. ');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
