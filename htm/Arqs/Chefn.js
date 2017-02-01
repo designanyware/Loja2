@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Chefn.png" width="214" height="140" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Chef’n</span></p>');
+document.write('     <p align="justify"> Chef’n é uma marca norte-americana com sede em Seattle, fundada em 1982 pelo inventor David Holcomb. Sua proposta é criar utensílios melhores para que as pessoas possam cozinhar melhor. Para isso, reinventa acessórios e gadgets já conhecidos, aliando tecnologia, beleza e inovação e trazendo muito mais praticidade e eficiência na hora de preparar e servir. O espírito empreendedor de David tem alimentado o desenvolvimento da criatividade na empresa tanto na área de projetos quanto de negócios, fazendo com que a Chef’n permaneça na vanguarda da inovação, sendo vencedora de numerosos premios de design e melhor empresa para se trabalhar.');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
