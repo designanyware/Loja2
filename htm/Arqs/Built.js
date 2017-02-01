@@ -1,0 +1,11 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_built.png" width="214" height="90" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Built NY</span></p>');
+document.write('      <p align="justify">Fundada em 2003 e sediada na cidade de Nova Iorque, a Built é uma empresa criativa que a partir de ideias simples cria produtos de grande durabilidade, que são ao mesmo tempo lindos, coloridos e muito práticos. Acredita que um bom design é capaz de melhorar e muito nosso dia a dia. Mas, para que o design seja realmente bom, ele precisa também ser diferente e a única forma de conseguir isto é pensando diferente. Por isso, possui uma equipe de designers focados no objetivo de facilitar a vida das pessoas a apartir da simplicidade e paixão por materiais inovadores.</p>');
+document.write('      <p align="justify">A marca surgiu com o propósito de reinventar produtos básicos a partir da utilização de um material inesperado, o neoprene. Depois de muita pesquisa, descobriu um tipo de neoprene super resistente à abrasão, usado por mergulhadores nos recifes de corais, com apenas 5mm de espessura. Com esta excelente matéria prima, conseguiu desenvolver produtos que protegem ser ser volumosos, são leves, fáceis de guardar e laváveis à maquina. Com eles é possível proteger e transportar diversos produtos que vão desde garrafas de vidro, marmitas até a equipamentos eletrônicos como tablets e notebooks, de forma segura e eficiente.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
