@@ -1,0 +1,13 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_Ding3000.jpg" width="214" height="105" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Ding 3000</span></p>');
+document.write('      <p align="justify">Ding3000 é um estúdio de design fundado em 2005, em Hannover, Alemanha, pelos jovens designers Carsten Schelling, Ralf Webermann e Sven Rudolph.</p><p align="justify">Focado na concepção de bens de consumo como mobiliário, luminárias e acessórios residenciais, ficou famoso com projetos caracterizados por ideias profundas e charmosas. O escritório projeta novos produtos baseados em análises de mercado e da concorrência, sob encomenda, para clientes como Authentics, Konstantin Slawinski e Troika.</p><p align="justify"> Vencedor de vários prêmios internacionais, entre eles o Red Dot Award, Design Plus e iF Design, suas obras já apareceram em diversas exposições, livros e revistas.</p><p align="justify">Alguns de seus produtos fazem parte da coleção permanente do Badisches Landesmuseum, em Karlsruhe e do Museum August kestner em Hanover, ambos na Alemanha.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
