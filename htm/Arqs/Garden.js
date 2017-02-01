@@ -1,0 +1,15 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_Garden.jpg" width="214" height="110" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Garden du vin</span></p>');
+document.write('      <p align="justify">O conceito da Garden du vin é trazer a imagem do vinho para informalidade, com leveza e mais jovialidade. Usando cores alegres, desenho minimalista e principalmente, produtos mais divertidos e descontraídos.');
+document.write('      <p align="justify">A proposta é oferecer um mix de acessórios inovadores para vinho e bar, totalmente repaginados, para uma experiência moderna e jovem, com preços competitivos e acessíveis.Todos com certificação FDA (USA) e LFGB (Europa).');
+document.write('      </p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
