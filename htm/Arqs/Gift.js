@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/PM_Gift.jpg" width="214" height="200" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Gift of the Year</span></p>');
+document.write('      <p align="justify">Gift of the Year é um evento realizado anualmente na Inglaterra, organizado pela Giftware Association, uma organização Britânica que apoia fornecedores e varejistas que trabalham com presentes e produtos para casa desde 1947 e patrocinada pela i2i Events e outras empresas famosas.');
+document.write('      <p align="justify">É uma oportunidade única para os participantes apresentarem produtos novos e inovadores, e também para elevar o conceito das empresas com visão de futuro. Os produtos concorrem em diferentes categorias, que vão desde as mais tradicionais, como utensílios e Hi Tech, até as mais inusitadas como presentes para animais de estimação. Não apenas os vencedores, mas todas as empresas participantes acabam se beneficiando pelo envolvimento com este prestigiado evento.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
