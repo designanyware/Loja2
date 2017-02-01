@@ -1,0 +1,21 @@
+<p1>
+<ul class="ProdOut">
+  <li>
+    <table width=100% cellspacing=0 cellpadding=2>
+      <tr>
+        <td align=center width=120><br><a href='ListaProdutos.asp?IDLoja=<IDLoja>&IDProduto=<IDProduto>'><ImagemProd></a></td>
+        <td><br>
+          <a href='ListaProdutos.asp?IDLoja=<IDLoja>&IDProduto=<IDProduto>' class=EstNomeProdCapa><NomeProd></a>
+          <table width=100%>
+            <tr><td class=EstPrecoProdCapa>
+                <script>if(<PrecoNum>>0){document.write("<Preco>")}</script>
+                <script>MostraEconomia(<PrecoNum>,<PrecoOri>);</script>
+             </td></tr>
+            <script>if(<OpiniaoQtd>>0){document.write("<tr><td><table><tr><td><OpiniaoMedia></td><td>(<OpiniaoQtd>)</td></tr></table></td></tr>")}</script>
+          </table>
+        </td>
+      </tr>
+    </table>   
+  </li>
+</ul>
+</p1>
