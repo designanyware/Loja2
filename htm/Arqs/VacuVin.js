@@ -1,0 +1,14 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/MA_VacuVin.gif" width="214" height="100" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('    <td valign="top"><p align="justify"><span class="VermM_">Vacu Vin</span></p>');
+document.write('      <p align="justify">A Vacu Vin é a principal marca da International Innovation Company e se destaca na fabricação de produtos divertidos, práticos  e  inovadores para o dia a dia, voltados ao mundo do vinho e da gastronomia.</p><p align="justify">Todos os seus produtos têm uma função específica e se destacam principalmente pela sua originalidade, singularidade, e por oferecer uma ótima relação custo-benefício. A maior parte da linha de produção e montagem da empresa está localizada na Holanda e submetida aos padrões ISO, o que garante a alta qualidade dos produtos.</p><p align="justify">A Vacu vin iniciou suas atividades em 1983 e se destacou mundialmente quando inventou e patenteou a bomba a vácuo para vinhos. Hoje, sua gama de produtos já provou sua qualidade, tendo recebido mais de 20 prêmios internacionais de design.');
+document.write('      </p></td>');
+document.write(' </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
