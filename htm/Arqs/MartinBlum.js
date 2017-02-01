@@ -1,0 +1,12 @@
+document.write('<br /><table width="100%" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #D7D7D7;padding:10px 10px 10px 10px;">');
+document.write('  <tr>');
+document.write('    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">');
+document.write('  <tr>');
+document.write('    <td width="214" valign="top"><img src="../lojas/00023005/images/DN_MartinBlum.jpg" width="214" height="214" border="0" /></td>');
+document.write('    <td width="10"><img src="../lojas/00023005/images/Trans.gif" width="10" height="10" border="0" /></td>');
+document.write('   <td valign="top"><p align="justify"><span class="VermM_">Martin Blum</span></p><p align="justify">Martin nasceu e cresceu na Suíça. Uma aprendizagem precoce como atendente numa empresa de design de produto proporcionou sua primeira percepção sobre desenvolvimento e distribuição de produtos. Em seguida, graduou-se como designer industrial na altamente respeitada Universidade de Northumbria, em Newcastle. Sua referência cultural, refletida em seu design, é uma justaposição de sua juventude suíça e seu amor pelas coisas britânicas. Seu trabalho tem sido reconhecido por prêmios internacionais de design.</p></td>');
+document.write('  </tr>');
+document.write('</table>');
+document.write('</td>');
+document.write('  </tr>');
+document.write('</table><br />');
